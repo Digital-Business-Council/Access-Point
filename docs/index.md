@@ -26,7 +26,7 @@ Identifiers | 8 | |
 Endpoint Discovery | 9 | | 
 Generic Settings | 10 | | 
 Appendix A: PMode Parameters|  | | 
-AppendixB: Use Cases | 10 | | 
+AppendixB: Use Cases |  | | 
  	 
 Primary Audience | img 
 ---|---
