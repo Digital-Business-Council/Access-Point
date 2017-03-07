@@ -1,0 +1,7 @@
+site_name: The Access Point
+repo_url: https://github.com/Digital-Business-Council/Access-Point 
+pages:
+    - 'Audience': 'index.md'
+    - 'Disclaimer': 'disclaimer.md'
+    - 'Introduction': 'introduction.md'
+theme: mkdocs
