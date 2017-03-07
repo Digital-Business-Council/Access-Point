@@ -1,6 +1,7 @@
 #1. The Access Point Implementation Guide
 
-## AudienceThe intended audiences are:
+## Audience
+The intended audiences are:
  
 | | |
 ---|---
