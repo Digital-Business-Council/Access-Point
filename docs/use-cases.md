@@ -27,6 +27,10 @@ SUC002 | Digital Capability Publisher, Access Point, Digital Capability Locator 
 SUC003 | Access Point, Digital Capability Publisher | Register Capability | Maintenance | Implementation guides for: Digital Capability Publisher and Access Point |
 SUC005 | Access Point, Digital Capability Publisher, Digital Capability Locator | Lookup Participant's Digital Capabilities (this includes SUC006) | Sending a business document | Implementation guides for: Access Point, Digital Capability Publisher and Digital Capability Locator |
 SUC006 | Access Point, Digital Capability Locator | Lookup DCP Alias Address | Sending a business document | Implementation guides for: Access Point and Digital Capability Locator |
+SUC013 | Access Point, Digital Capability Publisher, Digital Capability Locator | Remove DCP Alias Address | Maintenance | Implementation guides for: Access Point, Digital Capability Publisher and Digital Capability Locator |
+SUC014 | Access Point, Digital Capability Publisher | Update Capability | Maintenance | Implementation guides for: Digital Capability Publisher and Access Point |
+SUC015 | Access Point, Digital Capability Publisher | Remove Capability | Maintenance | Implementation guides for: Digital Capability Publisher and Access Point |
+SUC018 | Access Point, Business/Sender, Digital Capability Locator | List accredited Access Points |eDelivery on boarding / Maintenance | Implementation guides for: Digital Capability Locator and Access Point |
 
 
 
