@@ -9,3 +9,13 @@ The use cases listed in this section are separated in two categories:
 ## 6.1 Sending a Business Document (including Dynamic Discovery) 
 
 ![Usecase-Logo](/images/usecase-6.1.PNG)
+
+
+## 6.2 Maintenance of Dynamic Discovery Information 
+![Usecase2-Logo](/images/Usecase-6.2.PNG)
+
+
+## 6.3 Use Case Descriptions 
+The table below provides a list of business and system use cases that represent the functionality required to support the eDelivery solution. 
+
+Table 2: Relevant Use Cases 
