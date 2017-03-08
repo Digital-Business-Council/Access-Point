@@ -1,6 +1,6 @@
-#1. The Access Point Implementation Guide
+# The Access Point Implementation Guide
 
-## Audience
+##1. Audience
 The intended audiences are:
  
 | | |
