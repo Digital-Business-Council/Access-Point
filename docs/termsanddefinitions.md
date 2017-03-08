@@ -1,7 +1,13 @@
-5. Terms
+# 5. Terms and Definitions (Normative)
 
+The terms listed in Table 1 are used as defined throughout this specification. 
+Table 1: Terms and Definitions 
 
 | | | 
 | --- |------- |
-Application programming interface (API) |A software development construct that allows software components to communicate.| 
-Australian Business Register (ABR) | The Australian Business Register administers the Australian Government’s central registry of Australian Business Numbers and other Business details.|
+**Term** |**Definition**| 
+Business Process | A collection of related, structured activities or tasks undertaken by a business (for example, Invoicing). 
+
+
+
+|
