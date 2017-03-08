@@ -32,6 +32,7 @@ SUC014 | Access Point, Digital Capability Publisher | Update Capability | Mainte
 SUC015 | Access Point, Digital Capability Publisher | Remove Capability | Maintenance | Implementation guides for: Digital Capability Publisher and Access Point |
 SUC018 | Access Point, Business/Sender, Digital Capability Locator | List accredited Access Points |eDelivery on boarding / Maintenance | Implementation guides for: Digital Capability Locator and Access Point |
 
+
 |  |  |  |  |  |
 | --- |------- | --- | ------- | ------- |
 **Use Case ID** |**Actors**| **Description** |**High Level Process**| **Present In** |
