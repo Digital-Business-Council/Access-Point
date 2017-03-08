@@ -19,3 +19,29 @@ The use cases listed in this section are separated in two categories:
 The table below provides a list of business and system use cases that represent the functionality required to support the eDelivery solution. 
 
 Table 2: Relevant Use Cases 
+
+|  |  |  |  |  |
+| --- |------- | --- | ------- | ------- |
+**Use Case ID** |**Actors**| **Description** |**High Level Process**| **Present In** |
+SUC002 | Digital Capability Publisher, Access Point, Digital Capability Locator | Register DCP Alias Address | Maintenance | Implementation guides for: Access Point, Digital Capability Publisher and Digital Capability Locator |
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ |
