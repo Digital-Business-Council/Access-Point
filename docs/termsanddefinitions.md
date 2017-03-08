@@ -28,5 +28,22 @@ Markup Language |A computer language for marking or tagging a document that indi
 Normative | Sections of a Document conveying criteria to be fulfilled if compliance with the Document is to be claimed and from which no deviation is permitted. |
 Optional | A business requirement, rule, Information Element or supporting UBL Element that may appear on a Document. |
 Profile | A conformant subset of a standard specification. |
+Schema | A World Wide Web Consortium (W3C) recommendation that specifies how to formally describe the UBL Elements in an XML Document. |
+Schematron |A standard validation language for making assertions about the presence or absence of patterns in UBL Elements. |
+Service |An application able to process specific Document types for specific business transactions. |
+Service Interface |A software interface to support a Service. |
+UBL |Universal Business Language (UBL) is a library of standard XML Schemas for XML Documents such as purchase orders and Invoices. |
+UBL Extension Element |A UBL Element that enables additions to the standard UBL Schemas. |
+Value |An expression that cannot be reduced any further. Values are used to express the information for an Information Element and are (generally) formatted as UBL Elements. |
+XML |Extensible Markup Language (XML) is a Markup Language that defines a set of rules for encoding Documents in a format that is both human-readable and machine-readable. |
+XML Attribute |XML attributes are normally used to describe or to provide additional information about UBL Elements. |
+XML Document |A Document encoded using the XML Markup Language. |
+UBL Element |Each XML document contains one or more elements, the scope of which are either delimited by start and end tags (the characters ‘<’ and ‘>’). An UBL Element is generally equivalent to an Information Element. |
+XML Type |An XML Type consists of a Value space, a lexical space, and a set of facets that characterise properties of the Value space, individual Values or lexical items. |
+XML Vocabulary |A set of UBL Element definitions for a particular industry or business function. |
+
+
+
+
 
 
