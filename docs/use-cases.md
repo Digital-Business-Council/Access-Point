@@ -38,4 +38,6 @@ SUC018 | Access Point, Business/Sender, Digital Capability Locator | List accred
 **Use Case ID** |**Actors**| **Description** |**High Level Process**| **Present In** |
 BUC033 | Access Point, Digital Capability Publisher, Digital Capability Locator | List of Participant’s Digital Capabilities (Note: looking up all a participant’s capabilities is optional, and could be used by the sender to determine a trading partner’s ability to receive business documents) (this includes SUC006) | Maintenance/ Sending a business document | Implementation guides for: Digital Capability Locator, Digital Capability Publisher and Access Point |
 BUC036 | Access Point, Digital Capability Publisher, Digital Capability Locator |Business On-boarding (Note: this includes a business new to eInvoicing or a business changing a service provider) (this includes SUC002, SUC003, SUC014) | eDelivery On-boarding / Maintenance | Implementation guides for: Access Point, Digital Capability Publisher and Digital Capability Locator 
+BUC100 | Access Point, Digital Capability Publisher, Digital Capability Locator | Send Business Document to Recipient (this includes SUC005) | Sending a business document | Implementation guides for: Access Point , Digital Capability Publisher and Digital Capability Locator |
+
 
