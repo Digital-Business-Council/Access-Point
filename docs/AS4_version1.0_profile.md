@@ -64,3 +64,28 @@ Encryption and signing of business messages is the responsibility of business sy
 ### 7.2.8 Reliable Messaging and Reception Awareness
 When a receiving MSH is not available due to unforseen errors, reliability and reception awareness ensure the message will be delivered once the receiving MSH becomes available. This is enabled by REQUIRING receipts on the synchronous return leg of the transport protocol. Reception awareness errors SHOULD BE reported to the message producer. 
 
+### 7.2.9 Extension Properties 
+This standard allows the use of Message Properties and Part Properties. The use of these properties must be agreed between partners. 
+Processing Mode Parameters 
+
+### 7.2.10 Processing Mode Parameters 
+This section contains a summary of PMode parameters relevant to AS4 features for this conformance Profile. An AS4 handler MUST support and understand those that are mentioned as ‘required’. For each parameter, either: 
+ - Full support is required: An implementation MUST support the possible options for this parameter. 
+ - Partial support is required: Support for a subset of values is required. 
+ - No support is required: An implementation is not required to support the features controlled by this parameter, and therefore is not required to understand this parameter. 
+
+An AS4 handler is expected to support the PMode set below both as a Sender (of the user message) and as a Receiver. 
+
+#### 7.2.10.1 General PMode parameters 
+ - **PMode.ID:** support not required 
+  - PMode.ID is required by AS4 but not required by this Profile. 
+  - PModes are identified by the PMode.Agreement setting 
+ - **PMode.Agreement:** support required 
+ - **PMode.MEP:** support required for: http://www.oasis-open.org/committees/ebxml-msg/one-way 
+ - **PMode.MEPbinding:** support required for: http://www.oasis-open.org/committees/ebxml-msg/push 
+ - **PMode.Initiator.Party:** support required 
+ - **PMode.Initiator.Role: support required for:** http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole 
+ - **(PMode.Initiator.Authorization.username** and **PMode.Initiator.Authorization.password):** support not required 
+ - **PMode.Responder.Party:** support required 
+ 
+ 
