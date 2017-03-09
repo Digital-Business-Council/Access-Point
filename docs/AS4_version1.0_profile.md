@@ -88,7 +88,7 @@ An AS4 handler is expected to support the PMode set below both as a Sender (of t
  - **(PMode.Initiator.Authorization.username** and **PMode.Initiator.Authorization.password):** support not required 
  - **PMode.Responder.Party:** support required 
  - **PMode.Responder.Role:** support required for: http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole 
- -**(PMode.Responder.Authorization.username** and **PMode.Responder.Authorization.password):** support not required 
+ - **(PMode.Responder.Authorization.username** and **PMode.Responder.Authorization.password):** support not required 
 
 
 #### 7.2.10.2 PMode[1].Protocol 
@@ -132,7 +132,7 @@ Support not required.
 
 
 #### 7.2.10.8 PMode[1].ReceptionAwareness 
- - **PMode[1].ReceptionAwareness:** support required and when set to true, the PMode[1].Security.SendReceipt must also be set to true 
+ - **PMode[1].ReceptionAwareness:** support required and when set to true, the **PMode[1].Security.SendReceipt** must also be set to true 
  - **PMode[1].ReceptionAwareness.Retry:** support required 
  - **PMode[1].ReceptionAwareness.Retry.Parameters:** support required 
  - **PMode[1].ReceptionAwareness.DuplicateDetection:** support required 
