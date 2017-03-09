@@ -11,7 +11,7 @@ A list of base PMode settings are listed in Appendix A.1 Base Agreement.
 
 | | |
 | ---| ----|
-**eb:Messaging/eb:UserMessage/eb:MessageInfo** 
+**eb:Messaging/eb:UserMessage/eb:MessageInfo** |
 eb:Timestamp | The REQUIRED Timestamp element has a value representing the date at which the message header was created, and is conforming to a dateTime (W3C, 2012). It MUST be expressed as UTC. Indicating UTC in the Timestamp element by including the 'Z' identifier is optional. E.g. 2016-07-01T00:00:00 |
 eb:MessageId |  unique identifier to identify a message exchange between two Access Points. It is recommended to use a universally unique identifier which can be achieved using a UUID (Leach, Mealling, & Salz, 2005). |
 
