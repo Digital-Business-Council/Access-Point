@@ -84,8 +84,38 @@ An AS4 handler is expected to support the PMode set below both as a Sender (of t
  - **PMode.MEP:** support required for: http://www.oasis-open.org/committees/ebxml-msg/one-way 
  - **PMode.MEPbinding:** support required for: http://www.oasis-open.org/committees/ebxml-msg/push 
  - **PMode.Initiator.Party:** support required 
- - **PMode.Initiator.Role: support required for:** http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole 
+ - **PMode.Initiator.Role:** support required for: http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole 
  - **(PMode.Initiator.Authorization.username** and **PMode.Initiator.Authorization.password):** support not required 
  - **PMode.Responder.Party:** support required 
+ - **PMode.Responder.Role:** support required for: http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole 
+ -**(PMode.Responder.Authorization.username** and **PMode.Responder.Authorization.password):** support not required 
+
+#### 7.2.10.2 PMode[1].Protocol 
+ - **PMode[1].Protocol.Address:** support required for ‘http’ protocol 
+ - **PMode[1].Protocol.SOAPVersion:** support required for SOAP 1.2 
+
+#### 7.2.10.3 PMode[1].BusinessInfo 
+ - **PMode[1].BusinessInfo.Service:** support required 
+ - **PMode[1].BusinessInfo.Action:** support required 
+ - **PMode[1].BusinessInfo.Properties[]:** support not required 
+ - **PMode[1].BusinessInfo.PayloadProfile[]:** support not required 
+ - **PMode[1].BusinessInfo.PayloadProfile.maxSize:** support required for 10000 kilobytes 
+
+#### 7.2.10.4 PMode[1].ErrorHandling 
+ - **PMode[1].ErrorHandling.Report.SenderErrorsTo:** support not required 
+ - **PMode[1].ErrorHandling.Report.ReceiverErrorsTo:** support not required 
+ - **PMode[1].ErrorHandling.Report.AsResponse:** support required (true). 
+ - **PMode[1].ErrorHandling.Report.ProcessErrorNotifyConsumer:** support not required 
+ - **PMode[1].ErrorHandling.Report.ProcessErrorNotifyProducer:** support required (true/false) 
+ - **PMode[1].ErrorHandling.Report.DeliveryFailuresNotifyProducer:** support required (true/false) 
+
+#### 7.2.10.5 PMode[1].Reliability 
+Support not required. 
+
+#### 7.2.10.6 PMode[1].Security 
+ - **PMode[1].Security.WSSVersion:** support not required 
+ - **PMode[1].Security.X509.Sign:** support not required 
+ - **PMode[1].Security. X509.Encryption:** support not required 
+ - **PMode[1].Security.UsernameToken:** support not required 
  
  
