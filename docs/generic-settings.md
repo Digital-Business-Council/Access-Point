@@ -21,7 +21,7 @@ eb:From/eb:Role | http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/
 eb:To/eb:PartyId@type | The party ID type uses scheme identifiers from the iso6523 catalog. urn:oasis:names:tc:ebcore:partyid-type:iso6523:<iso6523 scheme> |
 eb:To/eb:PartyId | The value of the PartyId element depends on the type. |
 eb:To/eb:Role | http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole |
-**eb:Messaging/eb:UserMessage/eb:CollaborationInfo**
+**eb:Messaging/eb:UserMessage/eb:CollaborationInfo**|
 eb:AgreementRef | http://resources.digitalbusinesscouncil.com.au/dbc/services/exchange/ebms3profile/current |
 eb:Service | The value for this element is copied from the Digital Capability Publisher values when using dynamic discovery. |
 eb:Action | The value for this element is copied from the Digital Capability Publisher values when using dynamic discovery. |
