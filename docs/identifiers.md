@@ -18,5 +18,5 @@ Party identifiers align to ebCore Party Id (OASIS, 2010). The format is:
 
 In this case an Australian ABN is used, ISO 6523 scheme is 0151, and the identifier is the ABN.
 
-![Party-identifier_Logo](/images/Party-identifier.PNG)
+![Party-identifier_Logo](/images/party_identifier.PNG)
 
