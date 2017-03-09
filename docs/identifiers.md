@@ -26,3 +26,11 @@ The action identifier corresponds to the document identifier in the Digital Capa
 
 **Example:**
 ![action_identifier_Logo] (/images/action-identifier.PNG)
+
+
+## 8.3 Service Identifier 
+The service identifier corresponds to the process identifier in the Digital Capability Publisher (Digital Business Council, 2016b). This value is aligned to the Customisation ID in the eInvoicing Implementation Guide (section 9). 
+The type attribute SHOULD NOT be used. The encoding of the service values is per the Digital Capability Publisher Implementation Guide. 
+
+**Example:**
+![service-identifier_Logo] (/images/service-identifier.PNG)
