@@ -26,6 +26,23 @@ eb:AgreementRef | http://resources.digitalbusinesscouncil.com.au/dbc/services/ex
 eb:Service | The value for this element is copied from the Digital Capability Publisher values when using dynamic discovery. |
 eb:Action | The value for this element is copied from the Digital Capability Publisher values when using dynamic discovery. |
 eb:ConversationId | A unique identifier to track a message though the system. This value MUST be a universally unique identifier as described by RFC4122 (Leach, Mealling, & Salz, 2005). |
+**eb:Messaging/eb:UserMessage/eb:PayloadInfo/eb:PartInfo** |
+@href |Reference to the MIME part |
+**eb:Messaging/eb:UserMessage/eb:PayloadInfo/eb:PartInfo/eb:PartProperties These are generic values for attached payloads. Each payload must be compressed as required by the Profile. |
+eb:Property@name | CompressionType |
+eb:Property | application/gzip |
+
+
+
+
+
+@href 
+
+Reference to the MIME part 
+
+
+
+
 
 
 
