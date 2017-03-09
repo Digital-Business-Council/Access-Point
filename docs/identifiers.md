@@ -22,7 +22,7 @@ In this case an Australian ABN is used, ISO 6523 scheme is 0151, and the identif
 
 | |
 | --- |
-eb:PartyId type="urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151"  |
+eb:PartyId type="urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151"  
 12345678901 
-/eb:PartyId 
+/eb:PartyId |
 
