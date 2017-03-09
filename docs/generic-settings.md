@@ -17,4 +17,9 @@ eb:MessageId |  unique identifier to identify a message exchange between two Acc
 **eb:Messaging/eb:UserMessage/eb:PartyInfo**|
 eb:From/eb:PartyId@type | The party ID type uses scheme identifiers from the iso6523 catalog. urn:oasis:names:tc:ebcore:partyid-type:iso6523:<iso6523 scheme> |
 eb:From/eb:PartyId | The value of the PartyId element depends on the type. |
+eb:From/eb:Role | http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole |
+eb:To/eb:PartyId@type | The party ID type uses scheme identifiers from the iso6523 catalog. urn:oasis:names:tc:ebcore:partyid-type:iso6523:<iso6523 scheme> |
+eb:To/eb:PartyId | The value of the PartyId element depends on the type. |
+eb:To/eb:Role | http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole |
+
 
