@@ -40,3 +40,27 @@ The Council’s AS4 message structure includes a standard message header based o
 
 A message is either a user message or a signal message. Multiple payloads MAY be present and relate to PayloadInfo elements. 
 Payloads MUST be compressed according to the AS4 Additional Features Compression section 3.1 (OASIS, 2013, p. 24). The size of a message, including compressed payloads, MUST NOT exceed 10 megabytes. Support for large message splitting and joining of messages as defined in (OASIS, 2011) is NOT REQUIRED. 
+
+### 7.2.4 User Message 
+Only one user message is allowed in the SOAP header. The user message describes the transport of business information and includes sender and receiver information. 
+
+### 7.2.5 Signal Message 
+Signal messages do not carry a user message. A signal message is used as a response to a user message. A response can be an acknowledgement of a receipt or an error. The RefToMessageId will refer to the user message for which the response is sent. 
+
+### 7.2.6 Error Handling
+Errors MUST be reported as a response to a request. Sending errors as a separate request is NOT REQUIRED. 
+
+### 7.2.7 Security
+Access Points MUST implement security measures when using the public internet for message exchanges. 
+
+#### 7.2.7.1 Transport Layer Security 
+Transport layer security provides message confidentiality between Access Points. Implementations MUST support TLS version 1.2. Fallback to or earlier versions of TLS or SSL MUST NOT be used. TLS versions with known vulnerabilities MUST NOT be used. 
+Ciphers that offer perfect forward secrecy are RECOMMENDED when configuring TLS. 
+Access Points are REQUIRED to implement mutual exchange of certificates (Dierks & Rescorla, 2008, p. 55). Receiving Access Points MUST only process messages from Access Points that send a known client certificate. Client and server certificates are published in the Digital Capability Locator (Digital Business Council, 2016a). These certificates SHOULD be used to verify peer certificates. 
+
+#### 7.2.7.2 Message Layer Security 
+Encryption and signing of business messages is the responsibility of business systems and is NOT REQUIRED for this Profile between Access Points. 
+
+### 7.2.8 Reliable Messaging and Reception Awareness
+When a receiving MSH is not available due to unforseen errors, reliability and reception awareness ensure the message will be delivered once the receiving MSH becomes available. This is enabled by REQUIRING receipts on the synchronous return leg of the transport protocol. Reception awareness errors SHOULD BE reported to the message producer. 
+
