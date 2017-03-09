@@ -26,8 +26,7 @@ Access Points act as network nodes and are expected to always be connected to th
 Although ebMS3 supports choreography of message exchanges, choreography of business processes SHOULD be handled by the business applications. ebMS3 MessageId’s correlate messages between two Message Service Handlers and do not carry over to other sections of a transmission (e.g. from corner 3 to corner 4). A two-way Message Exchange Pattern is therefore NOT REQUIRED in the messaging protocol. In this Profile, MessageId and RefToMessageId are only used to correlate signal response messages to user messages. ConversationId is mandatory as per the ebMS3 standard. This element MUST be populated with a tracking identifier. 
 
 Support is REQUIRED for the following Message Exchange Pattern: 
- 1. **One Way/Push** 
- The sending of an eb:Receipt MUST be supported to allow reliable messaging as per the AS4 standard. This Profile only REQUIRES support for the ‘response’ reply pattern. An eb:Receipt or eb:Error signal message is returned on the back-channel of the underlying transport protocol. 
+ 1. **One Way/Push:** The sending of an eb:Receipt MUST be supported to allow reliable messaging as per the AS4 standard. This Profile only REQUIRES support for the ‘response’ reply pattern. An eb:Receipt or eb:Error signal message is returned on the back-channel of the underlying transport protocol. 
 
 As this Profile is defined in the context of a four-corner model, support for multi-hop message routing (OASIS, 2011) is NOT REQUIRED.
 
