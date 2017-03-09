@@ -20,3 +20,9 @@ In this case an Australian ABN is used, ISO 6523 scheme is 0151, and the identif
 
 ![Party-identifier_Logo](/images/party_identifier.PNG)
 
+
+## 8.2 Action Identifier 
+The action identifier corresponds to the document identifier in the Digital Capability Publisher (Digital Business Council, 2016b). This value is aligned to the Profile ID in the eInvoicing Implementation Guide (section 9). 
+
+**Example:**
+![action_identifier_Logo] (/images/action-identifier.PNG)
