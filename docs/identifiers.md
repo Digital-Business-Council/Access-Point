@@ -34,3 +34,8 @@ The type attribute SHOULD NOT be used. The encoding of the service values is per
 
 **Example:**
 ![service-identifier_Logo] (/images/service-identifier.PNG)
+
+
+## 8.4 Agreement Identifier 
+Agreement value defined by the Digital Business Council: 
+http://resources.digitalbusinesscouncil.com.au/dbc/services/exchange/ebms3/Profile 
