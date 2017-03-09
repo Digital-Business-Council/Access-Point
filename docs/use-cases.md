@@ -40,4 +40,4 @@ BUC033 | Access Point, Digital Capability Publisher, Digital Capability Locator 
 BUC036 | Access Point, Digital Capability Publisher, Digital Capability Locator |Business On-boarding (Note: this includes a business new to eInvoicing or a business changing a service provider) (this includes SUC002, SUC003, SUC014) | eDelivery On-boarding / Maintenance | Implementation guides for: Access Point, Digital Capability Publisher and Digital Capability Locator 
 BUC100 | Access Point, Digital Capability Publisher, Digital Capability Locator | Send Business Document to Recipient (this includes SUC005) | Sending a business document | Implementation guides for: Access Point , Digital Capability Publisher and Digital Capability Locator |
 
-
+This document addresses BUC100 which is the main responsibility of Access Points i.e. sending and receiving business documents and messages. Access points are also responsible for the maintenance of business capability information in the business discovery components. These services are detailed in the respective implementation guides. 
