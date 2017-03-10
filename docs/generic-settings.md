@@ -39,8 +39,16 @@ eb:Property | application/gzip |
 
 
 ## 10.3 Signal Response Message 
-A signal response message must be returned by the receiving Access Point. The RefToMessageId value is populated with the value of the MessageId element from the received user message. 
- 
+A signal response message must be returned by the receiving Access Point. The RefToMessageId value is populated with the value of the MessageId element from the received user message.
+Non repudiation of receipt is not required in the Profile. Non repudiation of receipt is a business concern and support in this messaging protocol has been removed. 
+  
+ | | |
+ | ---| ----|
+ **eb:Messaging/eb:SignalMessage/eb:MessageInfo** |
+ eb:Timestamp | The REQUIRED Timestamp element has a value representing the date at which the message header was created, and is conforming to a dateTime (W3C, 2012). It MUST be expressed as UTC. Indicating UTC in the Timestamp element by including the 'Z' identifier is optional. E.g. 2016-07-01T00:00:00 |
+
+
+
 
 
 
