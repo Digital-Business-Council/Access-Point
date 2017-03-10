@@ -46,6 +46,8 @@ Non repudiation of receipt is not required in the Profile. Non repudiation of re
 | ---| ----|
 **eb:Messaging/eb:SignalMessage/eb:MessageInfo** |
 eb:Timestamp | The REQUIRED Timestamp element has a value representing the date at which the message header was created, and is conforming to a dateTime (W3C, 2012). It MUST be expressed as UTC. Indicating UTC in the Timestamp element by including the 'Z' identifier is optional. E.g. 2016-07-01T00:00:00 |
+eb:MessageId | A unique identifier to identify a message exchange between two Access Points. It is recommended to use a universally unique identifier which can be achieved using a UUID (Leach, Mealling, & Salz, 2005). |
+eb:RefToMessageId | This value is copied from the incoming user message. |
 
 
 
