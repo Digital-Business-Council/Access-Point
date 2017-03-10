@@ -49,10 +49,9 @@ eb:Timestamp | The REQUIRED Timestamp element has a value representing the date 
 eb:MessageId | A unique identifier to identify a message exchange between two Access Points. It is recommended to use a universally unique identifier which can be achieved using a UUID (Leach, Mealling, & Salz, 2005). |
 eb:RefToMessageId | This value is copied from the incoming user message. |
 
+### 10.3.1 Example Response Message 
 
-
-
-
+![responsemessage_Logo] (/images/responsemessage-example.PNG) 
 
 
 
