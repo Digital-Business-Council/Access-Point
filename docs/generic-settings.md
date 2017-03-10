@@ -82,9 +82,9 @@ EBMS:0002 | FeatureNotSupported | Warning | Content | Although the message docum
 EBMS:0003 | ValueInconsistent | Failure | Content | Although the message is well formed and schema valid, some element/attribute is inconsistent either with the content of other element/attribute, or with, or with the processing mode of the MSH, or with the normative requirements of the ebMS specification. |
 EBMS:0004 | Other | Failure | Content | An error has occurred that has prevented the message from being correctly processed. A short description SHOULD BE provided by the MSH with this error |
 EBMS:0005 | ConnectionFailure | Failure | Communication | The MSH is experiencing temporary or permanent failure in trying to open a transport connection with a remote MSH |
-
-
-
+EBMS:0006 | | | |Not supported |
+EBMS:0007 | Mime Inconsistency |Failure  | Unpackaging | The use of MIME is not consistent with the required usage in this specification |
+EBMS:0008  | FeatureNotSupported | Failure | Unpackaging | Although the message is well formed and schema valid, the presence or absence of some element/attribute is not consistent with the capability of the MSH, with respect to the supported features. |
 
 
 
