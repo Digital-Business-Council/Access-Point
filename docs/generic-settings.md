@@ -83,8 +83,14 @@ EBMS:0003 | ValueInconsistent | Failure | Content | Although the message is well
 EBMS:0004 | Other | Failure | Content | An error has occurred that has prevented the message from being correctly processed. A short description SHOULD BE provided by the MSH with this error |
 EBMS:0005 | ConnectionFailure | Failure | Communication | The MSH is experiencing temporary or permanent failure in trying to open a transport connection with a remote MSH |
 EBMS:0006 | | | |Not supported |
-EBMS:0007 | Mime Inconsistency |Failure  | Unpackaging | The use of MIME is not consistent with the required usage in this specification |
+EBMS:0007 | MimeInconsistency |Failure  | Unpackaging | The use of MIME is not consistent with the required usage in this specification |
 EBMS:0008  | FeatureNotSupported | Failure | Unpackaging | Although the message is well formed and schema valid, the presence or absence of some element/attribute is not consistent with the capability of the MSH, with respect to the supported features. |
+EBMS:0009 | InvalidHeader | Failure | Unpackaging | The ebMS header is either not well formed as an XML document, or does not conform to the ebMS packaging rules. |
+EBMS:0010 | ProcessingModeMismatch | Failure | Processing | The ebMS header or another header expected by the MSH is not compatible with the expected content, based on the associated PMode. |
+EBMS:0011 | ExternalPayloadError | Failure | Content | The MSH is unable to resolve an external reference (i.e. a Part that is not contained within the ebMS Message, as identified by a PartInfo/ref URI) |
+EBMS:0301 | MissingReceipt | Failure | Communication | A receipt has not been received for a message that was previously sent by the MSH generating this error |
+EBMS:0302 | InvalidReceipt | Failure | Communication | A Receipt has been received for a message that was previously sent by the MSH generating this error, but the content does not match the message content. |
+EBMS:0303 | DecompressionFailure | Failure | Communication | An error occurred during the decompression |
 
 
 
