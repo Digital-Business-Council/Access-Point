@@ -33,6 +33,9 @@ eb:Property@name | CompressionType |
 eb:Property | application/gzip |
 
 
+### 10.2.1 Example User Message 
+
+![usermessage_Logo] (/images/usermessage-example.PNG)
 
  
 
