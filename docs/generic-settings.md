@@ -71,6 +71,7 @@ eb:MessageId | A unique identifier to identify a message exchange between two Ac
 eb:Description | A human readable description of the error. |
 
 
+
 *Table 3: Subset of ebMS3 and AS4 Error Codes applicable for this Profile* 
 
 | | | | | |
@@ -78,6 +79,10 @@ eb:Description | A human readable description of the error. |
 **Error Code**| **Short Description** | **Recommended Severity** | **Category Value** | **Description or Semantics**|
 EBMS:0001 | ValueNotRecognised | Failure | Content | Although the message document is well formed and schema valid, some elements/attribute contains a value that could not be recognised and therefore could not be used by the MSH |
 EBMS:0002 | FeatureNotSupported | Warning | Content | Although the message document is well formed and schema valid, some element/attribute value cannot be processed as expected because the related feature is not supported by the MSH |
+EBMS:0003 | ValueInconsistent | Failure | Content | Although the message is well formed and schema valid, some element/attribute is inconsistent either with the content of other element/attribute, or with, or with the processing mode of the MSH, or with the normative requirements of the ebMS specification. |
+EBMS:0004 | Other | Failure | Content | An error has occurred that has prevented the message from being correctly processed. 
+A short description SHOULD BE provided by the MSH with this error |
+
 
 
 
