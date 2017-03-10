@@ -80,8 +80,8 @@ eb:Description | A human readable description of the error. |
 EBMS:0001 | ValueNotRecognised | Failure | Content | Although the message document is well formed and schema valid, some elements/attribute contains a value that could not be recognised and therefore could not be used by the MSH |
 EBMS:0002 | FeatureNotSupported | Warning | Content | Although the message document is well formed and schema valid, some element/attribute value cannot be processed as expected because the related feature is not supported by the MSH |
 EBMS:0003 | ValueInconsistent | Failure | Content | Although the message is well formed and schema valid, some element/attribute is inconsistent either with the content of other element/attribute, or with, or with the processing mode of the MSH, or with the normative requirements of the ebMS specification. |
-EBMS:0004 | Other | Failure | Content | An error has occurred that has prevented the message from being correctly processed. 
-A short description SHOULD BE provided by the MSH with this error |
+EBMS:0004 | Other | Failure | Content | An error has occurred that has prevented the message from being correctly processed. A short description SHOULD BE provided by the MSH with this error |
+EBMS:0005 | ConnectionFailure | Failure | Communication | The MSH is experiencing temporary or permanent failure in trying to open a transport connection with a remote MSH |
 
 
 
