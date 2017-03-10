@@ -92,8 +92,9 @@ EBMS:0301 | MissingReceipt | Failure | Communication | A receipt has not been re
 EBMS:0302 | InvalidReceipt | Failure | Communication | A Receipt has been received for a message that was previously sent by the MSH generating this error, but the content does not match the message content. |
 EBMS:0303 | DecompressionFailure | Failure | Communication | An error occurred during the decompression |
 
+### 10.4.1 Example Error Message 
 
-
+![errormessage_Logo] (/images/errormessage-example.PNG)
 
 
 
