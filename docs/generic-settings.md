@@ -62,5 +62,21 @@ All standard ebMS3 and AS4 error codes are supported by this Profile. Table 3 su
 **eb:Messaging/eb:SignalMessage/eb:MessageInfo** |
 eb:Timestamp |The REQUIRED Timestamp element has a value representing the date at which the message header was created, and is conforming to a dateTime (W3C, 2012). It MUST be expressed as UTC. Indicating UTC in the Timestamp element by including the 'Z' identifier is optional. E.g. 2016-07-01T00:00:00 |
 eb:MessageId | A unique identifier to identify a message exchange between two Access Points. It is recommended to use a universally unique identifier which can be achieved using a UUID (Leach, Mealling, & Salz, 2005). |
+**eb:Messaging/eb:SignalMessage/eb:Error**
+@origin | ebMS |
+@category | Depends on the error code |
+@errorCode | ebMS3/AS4 error code |
+@severity | Depends on the error code |
+@refToMessageInError | Copied of eb:MessageId from the incoming user message. |
+eb:Description | A human readable description of the error. |
+
+
+
+
+
+
+eb:Messaging/eb:SignalMessage/eb:Error 
+
+
 
 
