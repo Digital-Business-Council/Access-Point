@@ -56,3 +56,11 @@ eb:RefToMessageId | This value is copied from the incoming user message. |
 
 ## 10.4 Error Message 
 All standard ebMS3 and AS4 error codes are supported by this Profile. Table 3 summarises the possible errors that can arise from use of the Council’s ebMS3/AS4 Profile. It includes errors specified in section 6.7.1 ebMS Processing Errors (OASIS, 2007) and errors from the AS4 Profile (OASIS, 2013). It does not include errors from sections 6.7.2 Security Processing Errors, 6.7.2 Reliable Messaging Errors and errors from OASIS ebXML Messaging Services Version 3.0: Part 2, Advanced Features (OASIS, 2011). 
+
+| | |
+| ---| ----|
+**eb:Messaging/eb:SignalMessage/eb:MessageInfo** |
+eb:Timestamp |The REQUIRED Timestamp element has a value representing the date at which the message header was created, and is conforming to a dateTime (W3C, 2012). It MUST be expressed as UTC. Indicating UTC in the Timestamp element by including the 'Z' identifier is optional. E.g. 2016-07-01T00:00:00 |
+eb:MessageId | A unique identifier to identify a message exchange between two Access Points. It is recommended to use a universally unique identifier which can be achieved using a UUID (Leach, Mealling, & Salz, 2005). |
+
+
