@@ -37,6 +37,9 @@ eb:Property | application/gzip |
 
 ![usermessage_Logo] (/images/usermessage-example.PNG)
 
+
+## 10.3 Signal Response Message 
+A signal response message must be returned by the receiving Access Point. The RefToMessageId value is populated with the value of the MessageId element from the received user message. 
  
 
 
