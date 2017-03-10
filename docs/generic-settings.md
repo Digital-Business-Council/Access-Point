@@ -70,9 +70,13 @@ eb:MessageId | A unique identifier to identify a message exchange between two Ac
 @refToMessageInError | Copied of eb:MessageId from the incoming user message. |
 eb:Description | A human readable description of the error. |
 
+| | | | | |
+| ---| ----| ----| ----| ----|
+**Error Code**| **Short Description** | **Recommended Severity** | **Category Value** | **Description or Semantics**|
 
 
 
+eb:Messaging/eb:SignalMessage/eb:MessageInfo** |
  
 
 
