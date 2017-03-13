@@ -1,8 +1,15 @@
 site_name: The Access Point
 repo_url: https://github.com/Digital-Business-Council/Access-Point 
 pages:
-    - 'Audience': 'index.md'
-    - 'Disclaimer': 'disclaimer.md'
-    - 'Overview': 'overview.md'
-    - 'Conformance': 'conformance.md'
-theme: mkdocs
+     - 'Disclaimer': 'disclaimer.md'
+     - 'Audience': 'index.md'
+     - 'Overview': 'overview.md'
+     - 'Conformance': 'conformance.md'
+     - 'Distribution Pacakage': 'distributionpackage.md'
+     - 'Terms and Definitions': 'termsanddefinitions.md'
+     - 'Use Cases': 'use-cases.md'
+     - 'AS4 Version 1.0 Profile (Normative)': 'AS4_version1.0_profile.md'
+     - 'Identifiers': 'identifiers.md'
+     - 'Endpoint Discovery': 'endpoint-discovery.md'
+     - 'Generic Settings': 'generic-settings.md'
+     theme: mkdocs
