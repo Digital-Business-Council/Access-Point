@@ -49,3 +49,19 @@ This use case describes the steps required for a party, possibly a sender, to di
  4. The Digital Capability Publisher creates the response including the capabilities for each process the participant has in their capability record; 
  5. The requester receives the response; 
  6. End flow. 
+ 
+## BUC036 Business On-boarding 
+
+### Purpose 
+This use case describes the process to on-board a business to a single Digital Capability Publisher and/or one or more Access Point services for eDelivery. This does not include Access Point (AP) and Digital Capability Publisher (DCP) service providers themselves, who are covered by the process described in BUC010 i.e. Service Provider On-Boarding. 
+
+There are a number of scenarios covered by this use case: 
+ 1. A business is entering the eDelivery framework for the first time (new participant); and 
+
+ 2. A business changes their service provider(s) to a single or multiple service provider (noting a business can only have one DCP service provider): 
+ 
+ a. The business moves both services from one service provider to one or more service providers. 
+ b. The business moves only their Access Point service for a particular process to a new service provider.
+ c. The business moves only the DCP service to a new service provider. 
+ d. The business has AP and DCP services with separate providers and consolidates the services with one provider. 
+ e. The business has different Service Providers for DCP and AP services, and moves each service to two new Service Providers. 
