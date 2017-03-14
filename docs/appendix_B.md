@@ -100,7 +100,8 @@ There are a number of scenarios covered by this use case:
  
  2. The business is discoverable in the Digital Capability Locator and, if the new DCP is listed in the DCL entry. 
 
-### Basic Flow – New Participant in eInvoicing; Business chooses to use a single Service Provider for both Access Point and DCP services. 
+### Basic Flow 
+**New Participant in eInvoicing; Business chooses to use a single Service Provider for both Access Point and DCP services.** 
  1. The business determines their requirements; 
  
  2. The business investigates the services offered and pricing of various service providers; 
@@ -125,7 +126,7 @@ There are a number of scenarios covered by this use case:
  
 ### Alternate Flows 
 
- 1. New Participant; Business is signing up to DCP service only (participant may have an AP of its own or is signing a separate agreement with a different AP Service Provider). 
+ **1. New Participant; Business is signing up to DCP service only (participant may have an AP of its own or is signing a separate agreement with a different AP Service Provider).** 
  
     a. At step 6, the New Service Provider determines the Business is entering into an agreement with a different Access Point service      provider or is using its own Access Point; 
     
@@ -135,7 +136,7 @@ There are a number of scenarios covered by this use case:
     
     d. Resume at step 9. 
 
- 2. Existing Participant; the business is moving both services to the New Service Provider. 
+ **2. Existing Participant; the business is moving both services to the New Service Provider.** 
 
     a. At step 6, the New Service Provider discovers the business has an existing DCP service that needs to be changed to the New Service Provider’s DCP service; 
     
