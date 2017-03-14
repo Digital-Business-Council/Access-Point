@@ -69,3 +69,34 @@ There are a number of scenarios covered by this use case:
  d. The business has AP and DCP services with separate providers and consolidates the services with one provider. 
  
  e. The business has different Service Providers for DCP and AP services, and moves each service to two new Service Providers. 
+ 
+### Assumptions 
+
+ 1. A Service Provider can operate an Access Point and/or a Capability Register but it is not mandatory to provide both services. 
+
+ 2. Where a Service Provider can provide both services, a business can choose to use both or either service offered by the service provider. 
+
+
+### Constraints 
+
+ 1. The Service Provider, when providing both services, must create and maintain the business’ DCL entry and DCP capability record. 
+
+ 2. When the business enters into agreements with a DCP service provider and one or more Access Point service providers, the DCP Service provider is responsible for coordinating, creating and maintaining the DCL entry and DCP record on behalf of the business for the duration of this arrangement as it will need all Access Point details to create the business’ Capability record in their nominated DCP. 
+
+ 3. When the business has its own Access Point, the Service Provider for DCP services is responsible for creating and maintaining the DCL entry, creating the capability record and responding to requests by the business to update the AP details the business uses as required. 
+
+ 4. In AP service provider change events, the Service Provider holding the business’ capability record must comply with AP Service Provider request to update the capability record with the new Access Point details. 
+
+ 5. As defined in the Council’s service provider agreements, the losing (Old) Service Provider must cooperate with the gaining (New) Service Provider during portability/change of service events. 
+
+ 6. Only one capability record can exist in the eDelivery framework for a participant; this record contains all the capabilities of the business. 
+ 
+### Pre-conditions 
+
+ 1. The business has obtained an Australian Business Number (ABN) from the Australian Business Register (ABR) or a GLN, DUNS or other Council approved identifier. 
+
+ 2. The business is required to receive business documents supported by the Council and the Framework. 
+
+ 3. The New Service Provider is accredited by the Council. 
+ 
+### Post-conditions 
