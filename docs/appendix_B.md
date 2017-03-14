@@ -138,7 +138,7 @@ There are a number of scenarios covered by this use case:
   a. At step 6, the New Service Provider determines the Business is entering into an agreement with a different Access Point service      provider or is using its own Access Point; 
 
   b. The New Service Provider obtains the AP endpoint address and transport Profile it supports for each document and process, from either the Business (if using its own AP) or the Business’ AP Service Provider(s); 
-  
+  
   c. The New Service Provider creates a capability record including AP endpoint address, transport Profile, document and process types; 
 
      i. <<include>> SUC003 – Register Capability. 
