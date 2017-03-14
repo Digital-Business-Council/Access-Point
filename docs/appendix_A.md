@@ -13,5 +13,8 @@ PMode.Initiator.Party | Determined by the message producer |
 PMode.Initiator.Role | http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole |
 PMode.Responder.Party | Determined by the message producer. |
 PMode.Responder.Role | http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/defaultRole |
+**PMode[1].Protocol**| |
+PMode[1].Protocol.Address | Receiving Access Point URL. Determined from DCL/DCP lookup |
+PMode[1].Protocol.SOAPVersion | 1.2 |
 
 
