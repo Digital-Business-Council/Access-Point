@@ -16,5 +16,20 @@ PMode.Responder.Role | http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/20
 **PMode[1].Protocol**| |
 PMode[1].Protocol.Address | Receiving Access Point URL. Determined from DCL/DCP lookup |
 PMode[1].Protocol.SOAPVersion | 1.2 |
+PMode[1].BusinessInfo.Service | The value for this element is copied from the Digital Capability Publisher values when using dynamic discovery. |
+PMode[1].BusinessInfo.Action | The value for this element is copied from the Digital Capability Publisher values when using dynamic discovery. |
+PMode[1].BusinessInfo.PayloadProfile.maxSize | 10000 (kilobytes) |
+**PMode[1].ErrorHandling** | |
+PMode[1].ErrorHandling.Report.AsResponse | true |
+**PMode[1].Security** | |
+PMode[1].Security.PModeAuthorize | false |
+PMode[1].Security.SendReceipt | true |
+PMode[1].Security.SendReceipt.NonRepudiation | false |
+PMode[1].ErrorHandling.Report.ProcessErrorNotifyProducer | true |
+PMode[1].ErrorHandling.Report.DeliveryFailuresNotifyProducer | true |
+Pmode[1].Security.SendReceipt.ReplyPattern | response |
+
+
+
 
 
