@@ -16,9 +16,7 @@ N/A
 ### Basic Flow 
  1. The Sender populates the business document with the required information (identifier and scheme, document type and process); 
  2. The Sender sends the business document to their Access Point; 
- 3. The sending Access Point performs the business discovery process to obtain the capability of the recipient (which includes obtaining the service endpoint of the receiving Access Point) 
- 
-  a. <<include>> SUC005 – Lookup Participant’s Digital Capability; 
+ 3. The sending Access Point performs the business discovery process to obtain the capability of the recipient (which includes obtaining the service endpoint of the receiving Access Point): a. <<include>> SUC005 – Lookup Participant’s Digital Capability; 
  4. The sending Access Point sends the business document to the recipient’s nominated Access Point for the business document type; 
  5. The receiving Access Point receives the business document successfully; 
  6. The receiving Access Point sends the business document to the recipient; 
@@ -41,9 +39,7 @@ This use case describes the steps required for a party, possibly a sender, to di
  1. The recipient’s digital capabilities have been determined by a participant. 
 
 ### Basic Flow 
- 1. The requester establishes the location of the recipient’s digital capabilities 
-   
-   a. <<include>> SUC006 - Lookup Participant’s DCP Alias Address; 
+ 1. The requester establishes the location of the recipient’s digital capabilities: a. <<include>> SUC006 - Lookup Participant’s DCP Alias Address; 
  2. The requester constructs the request to retrieve a recipient’s capability list; 
  3. The requester sends the request to the recipient’s Digital Capability Publisher; 
  4. The Digital Capability Publisher creates the response including the capabilities for each process the participant has in their capability record; 
@@ -60,15 +56,15 @@ There are a number of scenarios covered by this use case:
 
  2. A business changes their service provider(s) to a single or multiple service provider (noting a business can only have one DCP service provider): 
  
- a. The business moves both services from one service provider to one or more service providers. 
+  a. The business moves both services from one service provider to one or more service providers. 
  
- b. The business moves only their Access Point service for a particular process to a new service provider.
+  b. The business moves only their Access Point service for a particular process to a new service provider.
  
- c. The business moves only the DCP service to a new service provider. 
+  c. The business moves only the DCP service to a new service provider. 
  
- d. The business has AP and DCP services with separate providers and consolidates the services with one provider. 
+  d. The business has AP and DCP services with separate providers and consolidates the services with one provider. 
  
- e. The business has different Service Providers for DCP and AP services, and moves each service to two new Service Providers. 
+  e. The business has different Service Providers for DCP and AP services, and moves each service to two new Service Providers. 
  
 ### Assumptions 
 
@@ -119,13 +115,9 @@ There are a number of scenarios covered by this use case:
  
  7. The New Service Provider determines the client does not have an Access Point service and will use the New Service Provider’s AP; 
  
- 8. The New Service Provider adds its own supported Access Point address, transport Profiles, document types and processes to the business’ capability record in its own Digital Capability Publisher; 
+ 8. The New Service Provider adds its own supported Access Point address, transport Profiles, document types and processes to the business’ capability record in its own Digital Capability Publisher: a. <<include>> SUC003 – Register Capability. 
 
-  a. <<include>> SUC003 – Register Capability. 
-
- 9. The New Service Provider requests the capability address (DCL entry) be added to the Digital Capability Locator; 
-
-  a. <<include>> SUC002 – Register Capability Address. 
+ 9. The New Service Provider requests the capability address (DCL entry) be added to the Digital Capability Locator: a. <<include>> SUC002 – Register Capability Address. 
  
  10. The New Service Provider informs the business the on-boarding activities have been completed; 
 
@@ -139,9 +131,7 @@ There are a number of scenarios covered by this use case:
 
   b. The New Service Provider obtains the AP endpoint address and transport Profile it supports for each document and process, from either the Business (if using its own AP) or the Business’ AP Service Provider(s); 
   
-  c. The New Service Provider creates a capability record including AP endpoint address, transport Profile, document and process types; 
-
-     i. <<include>> SUC003 – Register Capability. 
+  c. The New Service Provider creates a capability record including AP endpoint address, transport Profile, document and process types; i. <<include>> SUC003 – Register Capability. 
 
   d. Resume at step 9. 
 
@@ -158,9 +148,6 @@ There are a number of scenarios covered by this use case:
      provider; 
 
   e. The New Service Provider creates a capability record including the AP endpoint address(es), transport Profile(s), document and 
-     process types; 
-
-
-     i. <<include>> SUC003 – Register Capability. 
+     process types; i. <<include>> SUC003 – Register Capability. 
 
   f. Resume at step 9. 
