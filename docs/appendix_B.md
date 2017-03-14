@@ -137,16 +137,15 @@ There are a number of scenarios covered by this use case:
     d. Resume at step 9. 
 
  **2. Existing Participant; the business is moving both services to the New Service Provider.** 
-
-    a. At step 6, the New Service Provider discovers the business has an existing DCP service that needs to be changed to the New Service Provider’s DCP service; 
-    
-    b. The New Service Provider informs the Losing DCP Service Provider they are now providing the business’ DCP service; 
-    
-    c. The Losing DCP Service Provider deprecates the business’ capability record in their DCP; 
-    
-    d. The New Service Provider informs the previous Access Point service provider they are the business’ nominated Access Point service      provider; 
-    
-    e. The New Service Provider creates a capability record including the AP endpoint address(es), transport Profile(s), document and 
-     process types; i. <<include>> SUC003 – Register Capability. 
-     
-    f. Resume at step 9. 
+       
+       a. At step 6, the New Service Provider discovers the business has an existing DCP service that needs to be changed to the New Service Provider’s DCP service; 
+       
+       b. The New Service Provider informs the Losing DCP Service Provider they are now providing the business’ DCP service;
+       
+       c. The Losing DCP Service Provider deprecates the business’ capability record in their DCP;
+       
+       d. The New Service Provider informs the previous Access Point service provider they are the business’ nominated Access Point service provider;
+       
+       e. The New Service Provider creates a capability record including the AP endpoint address(es), transport Profile(s), document and process types; i. <<include>> SUC003 – Register Capability.
+       
+       f. Resume at step 9. 
