@@ -148,4 +148,4 @@ There are a number of scenarios covered by this use case:
        
     e. The New Service Provider creates a capability record including the AP endpoint address(es), transport Profile(s), document and process types; i. <<include>> SUC003 – Register Capability.
        
-       f. Resume at step 9. 
+    f. Resume at step 9. 
