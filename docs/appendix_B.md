@@ -42,7 +42,8 @@ This use case describes the steps required for a party, possibly a sender, to di
 
 ### Basic Flow 
  1. The requester establishes the location of the recipient’s digital capabilities 
-  a. <<include>> SUC006 - Lookup Participant’s DCP Alias Address; 
+   
+   a. <<include>> SUC006 - Lookup Participant’s DCP Alias Address; 
  2. The requester constructs the request to retrieve a recipient’s capability list; 
  3. The requester sends the request to the recipient’s Digital Capability Publisher; 
  4. The Digital Capability Publisher creates the response including the capabilities for each process the participant has in their capability record; 
