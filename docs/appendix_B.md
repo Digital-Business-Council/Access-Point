@@ -56,15 +56,15 @@ There are a number of scenarios covered by this use case:
 
  2. A business changes their service provider(s) to a single or multiple service provider (noting a business can only have one DCP service provider): 
  
-  a. The business moves both services from one service provider to one or more service providers. 
+    a. The business moves both services from one service provider to one or more service providers. 
  
-  b. The business moves only their Access Point service for a particular process to a new service provider.
+    b. The business moves only their Access Point service for a particular process to a new service provider.
  
-  c. The business moves only the DCP service to a new service provider. 
+    c. The business moves only the DCP service to a new service provider. 
  
-  d. The business has AP and DCP services with separate providers and consolidates the services with one provider. 
+    d. The business has AP and DCP services with separate providers and consolidates the services with one provider. 
  
-  e. The business has different Service Providers for DCP and AP services, and moves each service to two new Service Providers. 
+    e. The business has different Service Providers for DCP and AP services, and moves each service to two new Service Providers. 
  
 ### Assumptions 
 
@@ -126,28 +126,26 @@ There are a number of scenarios covered by this use case:
 ### Alternate Flows 
 
  1. New Participant; Business is signing up to DCP service only (participant may have an AP of its own or is signing a separate agreement with a different AP Service Provider). 
-
-  a. At step 6, the New Service Provider determines the Business is entering into an agreement with a different Access Point service      provider or is using its own Access Point; 
-
-  b. The New Service Provider obtains the AP endpoint address and transport Profile it supports for each document and process, from either the Business (if using its own AP) or the Business’ AP Service Provider(s); 
-  
-  c. The New Service Provider creates a capability record including AP endpoint address, transport Profile, document and process types; i. <<include>> SUC003 – Register Capability. 
-
-  d. Resume at step 9. 
+ 
+    a. At step 6, the New Service Provider determines the Business is entering into an agreement with a different Access Point service      provider or is using its own Access Point; 
+    
+    b. The New Service Provider obtains the AP endpoint address and transport Profile it supports for each document and process, from either the Business (if using its own AP) or the Business’ AP Service Provider(s); 
+    
+    c. The New Service Provider creates a capability record including AP endpoint address, transport Profile, document and process types; i. <<include>> SUC003 – Register Capability. 
+    
+    d. Resume at step 9. 
 
  2. Existing Participant; the business is moving both services to the New Service Provider. 
 
-  a. At step 6, the New Service Provider discovers the business has an existing DCP service that needs to be changed to the New Service 
-     Provider’s DCP service; 
-
-  b. The New Service Provider informs the Losing DCP Service Provider they are now providing the business’ DCP service; 
-
-  c. The Losing DCP Service Provider deprecates the business’ capability record in their DCP; 
-
-  d. The New Service Provider informs the previous Access Point service provider they are the business’ nominated Access Point service 
-     provider; 
-
-  e. The New Service Provider creates a capability record including the AP endpoint address(es), transport Profile(s), document and 
+    a. At step 6, the New Service Provider discovers the business has an existing DCP service that needs to be changed to the New Service Provider’s DCP service; 
+    
+    b. The New Service Provider informs the Losing DCP Service Provider they are now providing the business’ DCP service; 
+    
+    c. The Losing DCP Service Provider deprecates the business’ capability record in their DCP; 
+    
+    d. The New Service Provider informs the previous Access Point service provider they are the business’ nominated Access Point service      provider; 
+    
+    e. The New Service Provider creates a capability record including the AP endpoint address(es), transport Profile(s), document and 
      process types; i. <<include>> SUC003 – Register Capability. 
-
-  f. Resume at step 9. 
+     
+    f. Resume at step 9. 
