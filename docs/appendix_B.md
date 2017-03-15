@@ -556,20 +556,20 @@ This use case describes the steps to remove a participant’s capability. This c
  6. The Digital Capability Publisher responds to the requester with confirmation the capability has been removed; 
  7. End flow. 
 
-###Exception Flows 
+### Exception Flows 
  1. At step 2, the Digital Capability Publisher is unable to remove the capability because the requester is not authorised to add a record; 
 
-   a. The Digital Capability Publisher sends an error message response to the requester; 
+     a. The Digital Capability Publisher sends an error message response to the requester; 
 
-   b. End flow. 
+     b. End flow. 
  2. At step 4 the Digital Capability Publisher cannot find a record belong to the participant; 
    
-   a. The Digital Capability Publisher responds with an error message; 
+     a. The Digital Capability Publisher responds with an error message; 
    
-   b. End flow. 
+     b. End flow. 
  3. At step 3 the Digital Capability Publisher finds the request format to be invalid; 
    
-   a. The Digital Capability Publisher responds with an error message; 
+     a. The Digital Capability Publisher responds with an error message; 
    
-   b. End flow. 
+     b. End flow. 
    
