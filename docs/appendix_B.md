@@ -171,8 +171,8 @@ There are a number of scenarios covered by this use case:
 
  **2. Existing Participant; The Business is changing only to a new AP Service Provider for a particular document type and process.** 
 
-    a. At step 9, the service provider discovers the participant has an existing Access Point provider and will be providing this service for the business instead, however the business is retaining its current Digital Capability Publisher Service provider; 
-  
+    a. At step 9, the service provider discovers the participant has an existing Access Point provider and will be providing this service for the business instead, however the business is retaining its current Digital Capability Publisher Service provider;
+    
     b. The New Service Provider informs the previous Access Point service provider they are the business’ new AP service provider for the particular document type and process; 
 
     c. The New Service Provider looks up the holder of the business’ capability record; 
