@@ -14,5 +14,6 @@ pages:
     - 'Generic Settings': 'generic-settings.md'
     - 'Appendix A - PMode Parameters': 'appendix_A.md'
     - 'Appendix B - Use Cases': 'appendix_B.md'
+    - 'References': 'references.md'
 theme: mkdocs
 
