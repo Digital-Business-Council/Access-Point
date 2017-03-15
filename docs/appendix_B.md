@@ -152,36 +152,35 @@ There are a number of scenarios covered by this use case:
     
 ### Exception flows 
 
-**1. New Participant; Business is signing up to Access Point service with the New Service Provider, it will use another Service Provider for DCP services.** 
+ **1. New Participant; Business is signing up to Access Point service with the New Service Provider, it will use another Service Provider for DCP services.** 
 
-   a. At step 6, the New Service Provider determines the business will use a different service provider for a DCP service; 
+    a. At step 6, the New Service Provider determines the business will use a different service provider for a DCP service; 
+ 
+    b. The DCP service provider requests the New Service Provider’s AP details; 
 
-   b. The DCP service provider requests the New Service Provider’s AP details; 
+    c. The New Service Provider provides their AP endpoint address and transport Profile, to enable the DCP Service Provider to successfully create the business’ capability record; 
 
-   c. The New Service Provider provides their AP endpoint address and transport Profile, to enable the DCP Service Provider to successfully create the business’ capability record; 
+    d. The DCP Service Provider creates the capability record; i. <<include>> SUC003 – Register Capability. 
 
-   d. The DCP Service Provider creates the capability record; i. <<include>> SUC003 – Register Capability. 
+    e. The DCP Service Provider requests addition of the business’ DCL entry in the Digital Capability Locator; i. <<include>> SUC002 – Register Capability Address. 
 
-   e. The DCP Service Provider requests addition of the business’ DCL entry in the Digital Capability Locator; i. <<include>> SUC002 – Register Capability Address. 
+    f. The DCP Service provider informs the business that all Access Points have been added to the capability record for each document/process and the DCL entry has been created; 
 
-   f. The DCP Service provider informs the business that all Access Points have been added to the capability record for each document/process and the DCL entry has been created; 
-
-   g. End flow. 
+    g. End flow. 
 
 
-**2. Existing Participant; The Business is changing only to a new AP Service Provider for a particular document type and process.** 
+ **2. Existing Participant; The Business is changing only to a new AP Service Provider for a particular document type and process.** 
 
-   a. At step 9, the service provider discovers the participant has an existing Access Point provider and will be providing this service for the business instead, however the business is retaining its current Digital Capability Publisher Service provider; 
+    a. At step 9, the service provider discovers the participant has an existing Access Point provider and will be providing this service for the business instead, however the business is retaining its current Digital Capability Publisher Service provider; 
   
+    b. The New Service Provider informs the previous Access Point service provider they are the business’ new AP service provider for the particular document type and process; 
 
-   b. The New Service Provider informs the previous Access Point service provider they are the business’ new AP service provider for the particular document type and process; 
+    c. The New Service Provider looks up the holder of the business’ capability record; 
 
-   c. The New Service Provider looks up the holder of the business’ capability record; 
+    d. The New Service Provider provides their AP endpoint address and accepted transport protocol for the process and document type to the DCP Service Provider to successfully create the business’ capability record; 
 
-   d. The New Service Provider provides their AP endpoint address and accepted transport protocol for the process and document type to the DCP Service Provider to successfully create the business’ capability record; 
+    e. The DCP Service Provider updates the capability record; i. <<includes>> SUC014 – Update Capability. 
 
-   e. The DCP Service Provider updates the capability record; i. <<includes>> SUC014 – Update Capability. 
+    f. The DCP Service Provider informs the business their change in AP service has been updated and they are able to receive documents through the new Access Point; 
 
-   f. The DCP Service Provider informs the business their change in AP service has been updated and they are able to receive documents through the new Access Point; 
-
-   g. End flow. 
+    g. End flow. 
