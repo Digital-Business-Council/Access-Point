@@ -67,14 +67,12 @@ There are a number of scenarios covered by this use case:
     e. The business has different Service Providers for DCP and AP services, and moves each service to two new Service Providers. 
  
 ### Assumptions 
-
  1. A Service Provider can operate an Access Point and/or a Capability Register but it is not mandatory to provide both services. 
 
  2. Where a Service Provider can provide both services, a business can choose to use both or either service offered by the service provider. 
 
 
 ### Constraints 
-
  1. The Service Provider, when providing both services, must create and maintain the business’ DCL entry and DCP capability record. 
 
  2. When the business enters into agreements with a DCP service provider and one or more Access Point service providers, the DCP Service provider is responsible for coordinating, creating and maintaining the DCL entry and DCP record on behalf of the business for the duration of this arrangement as it will need all Access Point details to create the business’ Capability record in their nominated DCP. 
@@ -88,7 +86,6 @@ There are a number of scenarios covered by this use case:
  6. Only one capability record can exist in the eDelivery framework for a participant; this record contains all the capabilities of the business. 
  
 ### Pre-conditions 
-
  1. The business has obtained an Australian Business Number (ABN) from the Australian Business Register (ABR) or a GLN, DUNS or other Council approved identifier. 
 
  2. The business is required to receive business documents supported by the Council and the Framework. 
@@ -124,8 +121,8 @@ There are a number of scenarios covered by this use case:
 
  11. End flow. 
  
+ 
 ### Alternate Flows 
-
  **1. New Participant; Business is signing up to DCP service only (participant may have an AP of its own or is signing a separate agreement with a different AP Service Provider).** 
  
     a. At step 6, the New Service Provider determines the Business is entering into an agreement with a different Access Point service      provider or is using its own Access Point; 
@@ -184,3 +181,58 @@ There are a number of scenarios covered by this use case:
     f. The DCP Service Provider informs the business their change in AP service has been updated and they are able to receive documents through the new Access Point; 
 
     g. End flow. 
+
+## SUC002 Register DCP Alias Address 
+
+### Purpose 
+This use case describes the interaction required for the Identifier to be mapped to the DCP Alias Address of a participant’s Digital Capability Publisher and this mapping added to the Digital Capability Locator, enabling the Participant to be discovered. 
+
+### Assumptions 
+N/A 
+
+### Pre-conditions 
+ 1. The participant’s capability record has been added to an accredited Digital Capability Publisher. 
+ 2. The participant does not have a DCP Alias Address already registered. 
+ 3. The Digital Capability Publisher has been accredited by the council and added to the Digital Capability Locator. 
+ 4. The Digital Capability Publisher has obtained the identifier and the identifier scheme of the participant. 
+
+### Post-conditions 
+ 1. The DCP Alias Address of the participant’s Digital Capability Publisher has been added to the Digital Capability Locator, with the Participant’s identifier mapped to the Digital Capability Publisher endpoint address. 
+ 2. The participant’s Digital Capability Publisher address is discoverable on the Digital Capability Locator. 
+
+### Basic Flow 
+ 1. The requester constructs the DCP Alias Address record addition request; 
+ 2. The requester sends the DCP Alias Address record addition request to the Digital Capability Locator; 
+ 3. The Digital Capability Locator receives the DCP Alias Address record addition request; 
+ 4. The Digital Capability Locator checks the requester is authorised to request a record addition; 
+ 5. The Digital Capability Locator verifies the DCP Alias Address record addition request is in the correct format; 
+ 6. The Digital Capability Locator determines no record exists for this participant; 
+ 7. The Digital Capability Locator locates the accredited Digital Capability Publisher specified in the request for inclusion in the participant’s record; 
+ 8. The Digital Capability Locator checks the Digital Capability Publisher in the request is accredited; 
+ 9. The Digital Capability Locator publishes the participant’s DCP Alias Address record; 
+ 10. The Digital Capability Locator responds, informing the requester that the DCP Alias Address has been published successfully; 
+ 11. End flow. 
+
+### Exception Flows 
+ 1. At step 4, the Digital Capability Locator determines the requester is not authorised and sends an error response indicating this; 
+ 2. At step 5, the Digital Capability Locator is unable to add the DCP Alias Address record successfully because the request format is invalid; 
+
+    a. The Digital Capability Locator sends an error message response to the requester; 
+    
+    b. End flow. 
+ 3. At step 6, the Digital Capability Locator is unable to add the DCP Alias Address record successfully to the Digital Capability Locator because the participant already has a record; 
+
+    a. The Digital Capability Locator sends an error message response to the requester; 
+    
+    b. End flow. 
+ 4. At step 7, the Digital Capability Locator is unable to add the DCP Alias Address record successfully because the Digital Capability Publisher identifier provided cannot be found; 
+
+    a. The Digital Capability Locator sends an error message response to the requester; 
+   
+    b. End flow. 
+ 5. At step 8, the Digital Capability Locator is unable to add the DCP Alias Address record successfully because the Digital Capability Publisher is not accredited; 
+    
+    a. The Digital Capability Locator sends an error message response to the requester; 
+    
+    b. End flow. 
+    
