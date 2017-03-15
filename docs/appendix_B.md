@@ -289,3 +289,44 @@ This use case describes the steps required for a party to discover the DCP Alias
     b. The requester receives the response but cannot discover the location of the Participant’s Digital Capability Publisher; 
     
     c. End flow. 
+    
+ 
+## SUC013 Remove DCP Alias Address 
+
+### Purpose 
+This use case describes the steps to remove a DCP Alias Address record from the Digital Capability Locator. 
+
+### Assumptions 
+ 1. The participant no longer trades or decides not to participate in eDelivery. 
+ 2. The Digital Capability Publisher or the participant can request removal the participant’s DCP Alias Address, so long as they can be authenticated and their permissions allow this. 
+ 3. The requester could be removing the record before adding a new one. 
+
+### Pre-conditions 
+ 1. The participant has an existing DCP Alias Address record. 
+
+### Post-conditions 
+ 1. The participant’s DCP Alias Address record is no longer discoverable on the Digital Capability Locator. 
+
+### Basic Flow 
+ 1. The Digital Capability Publisher or participant itself sends a request to the Digital Capability Locator to remove the participant’s DCP Alias Address record; 
+ 2. The Digital Capability Locator receives the request; 
+ 3. The Digital Capability Locator checks the requester is authorised to request the record to be removed; 
+ 4. The Digital Capability Locator checks the request format is correct; 
+ 5. The Digital Capability Locator locates the participant’s record; 
+ 6. The Digital Capability Locator removes the participant’s DCP Alias Address record; 
+ 7. The Digital Capability Locator sends a response to the requester confirming the location has been removed; 
+ 8. End flow. 
+
+### Exception Flows 
+ 1. At step 3, the Digital Capability Locator determines the requester is not authorised to perform a removal of the Digital Address; 
+ 2. At step 4, the Digital Capability Locator is unable to remove the DCP Alias Address record successfully because the request format is not valid; 
+
+    a. The Digital Capability Locator sends an error message response to the requester; 
+    
+    b. End flow. 
+ 3. At step 5, the Digital Capability Locator cannot find a DCP Alias Address Record for the participant; 
+    
+    a. The Digital Capability Locator sends an error message response to the requester; 
+    
+    b. End flow. 
+    
