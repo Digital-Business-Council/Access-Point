@@ -374,7 +374,7 @@ For example, an Access Point could be trying to determine if the Recipient actua
 ### Basic Flow 
  1. The requester establishes the location of the recipient’s Digital Capability Publisher 
      
-     a. <<include>> SUC006 - Lookup Participant’s DCP Alias Address; 
+     a. <&lt;include  &gt;> SUC006 - Lookup Participant’s DCP Alias Address; 
  2. The requester constructs the request to retrieve recipient’s capability record including participant identifier, document type and process type; 
  3. The requester sends the request to the Digital Capability Publisher endpoint; 
  4. The Digital Capability Publisher receives the request and verifies the format is correct; 
