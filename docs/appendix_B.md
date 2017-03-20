@@ -157,9 +157,9 @@ There are a number of scenarios covered by this use case:
 
     c. The New Service Provider provides their AP endpoint address and transport Profile, to enable the DCP Service Provider to successfully create the business’ capability record; 
 
-    d. The DCP Service Provider creates the capability record; i. <&lt;include &gt;> SUC003 – Register Capability. 
+    d. The DCP Service Provider creates the capability record; i. <<include >> SUC003 – Register Capability. 
 
-    e. The DCP Service Provider requests addition of the business’ DCL entry in the Digital Capability Locator; i. <&lt;include &gt;> SUC002 – Register Capability Address. 
+    e. The DCP Service Provider requests addition of the business’ DCL entry in the Digital Capability Locator; i. <<include >> SUC002 – Register Capability Address. 
 
     f. The DCP Service provider informs the business that all Access Points have been added to the capability record for each document/process and the DCL entry has been created; 
 
@@ -176,7 +176,7 @@ There are a number of scenarios covered by this use case:
 
     d. The New Service Provider provides their AP endpoint address and accepted transport protocol for the process and document type to the DCP Service Provider to successfully create the business’ capability record; 
 
-    e. The DCP Service Provider updates the capability record; i. <&lt;includes &gt;> SUC014 – Update Capability. 
+    e. The DCP Service Provider updates the capability record; i. <<includes >> SUC014 – Update Capability. 
 
     f. The DCP Service Provider informs the business their change in AP service has been updated and they are able to receive documents through the new Access Point; 
 
