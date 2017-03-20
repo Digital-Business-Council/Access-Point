@@ -431,7 +431,7 @@ This use case describes the steps required for an Access Point provider or a par
  5. The Digital Capability Publisher creates the capability record; 
  6. The Digital Capability Publisher adds the capability record successfully; 
  7. The Digital Capability Publisher informs the requester of the successful addition of the record; 
- 8. The Digital Capability Publisher adds the DCP Alias Address of the participant to the Digital Capability Locator; a. <<include>> SUC002 - Register DCP Alias Address 
+ 8. The Digital Capability Publisher adds the DCP Alias Address of the participant to the Digital Capability Locator; a. <&lt;include &gt;> SUC002 - Register DCP Alias Address 
  9. End flow. 
 
 ### Exception Flows 
