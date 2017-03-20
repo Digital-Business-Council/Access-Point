@@ -7,4 +7,4 @@ The endpoint address of a message exchange is determined by querying the Digital
 
 This returns a signed service metadata structure with a list of processes. Each process has a list of endpoints. A process is identified by a process ID, the endpoint is identified by the transport Profile. 
 
-![Dynamic-discover_Logo] (/images/Endpoint-discovery.PNG)
+![Dynamic-discover_Logo](/images/Endpoint-discovery.PNG)
