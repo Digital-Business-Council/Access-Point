@@ -471,40 +471,54 @@ This use case describes the steps required for an Access Point provider or a par
  5. The Digital Capability Publisher creates the capability record; 
  6. The Digital Capability Publisher adds the capability record successfully; 
  7. The Digital Capability Publisher informs the requester of the successful addition of the record; 
- 8. The Digital Capability Publisher adds the DCP Alias Address of the participant to the Digital Capability Locator; a. <&lt;include &gt;> SUC002 - Register DCP Alias Address 
+ 8. The Digital Capability Publisher adds the DCP Alias Address of the participant to the Digital Capability Locator; 
+ 
+         a. <&lt;include &gt;> SUC002 - Register DCP Alias Address 
+ 
  9. End flow. 
 
 ### Exception Flows 
  1. At step 2, the Digital Capability Publisher is unable to add the Capability Record because the requester is not authorised to add a record; 
     
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+        a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+        b. End flow. 
+ 
+ 
  2. At step 5, the Digital Capability Publisher is unable to add the Capability Record successfully because the transport Profile in the request does not conform to the supported Council transport Profiles; 
 
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+       a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+       b. End flow. 
+ 
+ 
  3. At step 5, the Digital Capability Publisher is unable to add the Capability record successfully because the request format is not valid; 
     
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
+ 
+ 
  4. At step 5, the Digital Capability Publisher is unable to add the Capability record successfully because the identifier provided does not conform to an Identifier scheme supported by the Council; 
     
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
+ 
+ 
+ 
  5. At step 5, the Digital Capability Publisher is unable to add the Capability Record successfully because the document identifier in the request does not conform to a supported document identifier scheme; 
     
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
+ 
+ 
  6. At step 5, the Digital Capability Publisher is unable to add the Capability Record successfully because the process identifier in the request does not conform to a supported process identifier scheme; 
     
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
     
 ## SUC014 Update Capability 
 
@@ -533,43 +547,57 @@ This use case describes the steps to update a participant’s capability. This c
 ### Exception Flows 
  1. At step 2, the Digital Capability Publisher is unable to add the Capability Record because the requester is not authorised to add a record; 
 
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
 
-    b. End flow. 
+      b. End flow. 
+ 
+ 
  2. At step 4, the Digital Capability Publisher cannot find a record belonging to the participant; 
     
-    a. The Digital Capability Publisher responds with an error message; 
+      a. The Digital Capability Publisher responds with an error message; 
     
-    b. End flow. 
+      b. End flow. 
+ 
+ 
  3. At step 3, the Digital Capability Publisher is unable to update the Capability Record successfully because the transport Profile in the request does not conform to the supported Council transport Profiles; 
     
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
+ 
+ 
  4. At step 3, the Digital Capability Publisher is unable to update the Capability record successfully because the request format is not valid; 
    
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
+ 
+ 
  5. At step 3, the Digital Capability Publisher is unable to update the Capability record successfully because the participant identifier provided does not conform to an Identifier scheme supported by the Council; 
     
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
+ 
+ 
  6. At step 3, the Digital Capability Publisher is unable to update the Capability record successfully because the Access Point endpoint address provided does not conform to the correct format; 
     
-    a. The Digital Capability Publisher sends an error message response to the requester; 
-    b. End flow. 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
+      b. End flow. 
+ 
+ 
  7. At step 3, the Digital Capability Publisher is unable to update the Capability Record successfully because the document identifier in the request does not conform to a supported document identifier scheme; 
    
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
+ 
+ 
  8. At step 3, the Digital Capability Publisher is unable to update the Capability Record successfully because the process identifier in the request does not conform to a supported process identifier scheme; 
     
-    a. The Digital Capability Publisher sends an error message response to the requester; 
+      a. The Digital Capability Publisher sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
     
 
 ## SUC015 Remove Capability 
@@ -599,17 +627,21 @@ This use case describes the steps to remove a participant’s capability. This c
 ### Exception Flows 
  1. At step 2, the Digital Capability Publisher is unable to remove the capability because the requester is not authorised to add a record; 
 
-     a. The Digital Capability Publisher sends an error message response to the requester; 
+       a. The Digital Capability Publisher sends an error message response to the requester; 
 
-     b. End flow. 
+       b. End flow. 
+ 
+ 
  2. At step 4 the Digital Capability Publisher cannot find a record belong to the participant; 
    
-     a. The Digital Capability Publisher responds with an error message; 
+       a. The Digital Capability Publisher responds with an error message; 
    
-     b. End flow. 
+       b. End flow. 
+ 
+ 
  3. At step 3 the Digital Capability Publisher finds the request format to be invalid; 
    
-     a. The Digital Capability Publisher responds with an error message; 
+       a. The Digital Capability Publisher responds with an error message; 
    
-     b. End flow. 
+       b. End flow. 
    
