@@ -22,8 +22,8 @@ AS4 Version 1.0 Profile (Normative) | 7 | ![yellow_logo](/images/yellow.PNG) | !
 Identifiers | 8 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
 Endpoint Discovery | 9 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
 Generic Settings | 10 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
-Appendix A: PMode Parameters| ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
-Appendix B: Use Cases | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Appendix A: PMode Parameters| | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Appendix B: Use Cases |  | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
  	 
 Primary Audience | ![orange_Logo](/images/orange.PNG) 
 ---|---
