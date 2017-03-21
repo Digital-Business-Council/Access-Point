@@ -25,7 +25,7 @@ In this case an Australian ABN is used, ISO 6523 scheme is 0151, and the identif
 The action identifier corresponds to the document identifier in the Digital Capability Publisher (Digital Business Council, 2016b). This value is aligned to the Profile ID in the eInvoicing Implementation Guide (section 9). 
 
 **Example:**
-![action_identifier_Logo] (/images/action-identifier.PNG)
+![action_identifier_Logo](/images/action-identifier.PNG)
 
 
 ## 8.3 Service Identifier 
@@ -33,7 +33,7 @@ The service identifier corresponds to the process identifier in the Digital Capa
 The type attribute SHOULD NOT be used. The encoding of the service values is per the Digital Capability Publisher Implementation Guide. 
 
 **Example:**
-![service-identifier_Logo] (/images/service-identifier.PNG)
+![service-identifier_Logo](/images/service-identifier.PNG)
 
 
 ## 8.4 Agreement Identifier 
