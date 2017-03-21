@@ -17,7 +17,7 @@ Overview | 2 | ![orange_Logo](/images/orange.PNG)  | ![orange_Logo](/images/oran
 Conformance | 3 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
 Distribution Pacakage | 4 | ![orange_Logo](/images/orange.PNG)  | ![orange_Logo](/images/orange.PNG) 
 Terms and Definitions (Normative) | 5 | ![orange_Logo](/images/orange.PNG) | ![orange_Logo](/images/orange.PNG) 
-Use Cases | 6 | | ![orange_Logo](/images/orange.PNG) 
+Use Cases | 6 | ![orange_Logo](/images/orange.PNG) | ![orange_Logo](/images/orange.PNG) 
 AS4 Version 1.0 Profile (Normative) | 7 | ![yellow_logo](/images/yellow.PNG) | ![orange_Logo](/images/orange.PNG) 
 Identifiers | 8 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
 Endpoint Discovery | 9 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
