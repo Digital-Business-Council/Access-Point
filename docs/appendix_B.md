@@ -366,19 +366,19 @@ This use case describes the steps to remove a DCP Alias Address record from the 
     
 ## SUC018 List of Accredited Access Points 
 
-## Purpose 
+### Purpose 
 This may be performed when a requester wants to discover all accredited Access Points accredited or determine the accreditation status of a particular Access Point. 
 
-## Assumptions 
+### Assumptions 
  1. This list will be readily available and not require authentication and authorisation checks for requesters. 
 
-## Pre-conditions 
+### Pre-conditions 
  1. The Access Points on the list have been accredited by the accreditation body. 
 
-## Post-conditions 
+### Post-conditions 
  1. The requester has obtained the list of accredited Access Points. 
 
-## Basic Flow 
+### Basic Flow 
  1. The requester sends a request to the Digital Capability Locator for a list of accredited Access Points; 
  2. The Digital Capability Locator receives the request; 
  3. The Digital Capability Locator compiles the list of accredited Access Points; 
