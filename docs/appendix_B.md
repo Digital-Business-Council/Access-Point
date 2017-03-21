@@ -285,13 +285,14 @@ This use case describes the steps required for a party to discover the DCP Alias
 
 ### Alternate Flows 
  1. At step 3, the Digital Capability Locator is unavailable at the time of the query; 
+ 
+       a. The requester retries a specified amount of attempts; 
     
-    a. The requester retries a specified amount of attempts; 
+       b. The Digital Capability Locator is available during one of the attempts; 
     
-    b. The Digital Capability Locator is available during one of the attempts; 
-    
-    c. Resume at step 3. 
+       c. Resume at step 3. 
     
+ 
  2. At step 2, the DCP Alias Address of a recipient’s capability has been previously looked up by the requester, stored locally and is still valid (the Time-To-Life has not expired). The capability location is then determined by the requester based on this cached record and the Digital Capability Locator does not need to be queried. 
 
 ### Exception Flows 
