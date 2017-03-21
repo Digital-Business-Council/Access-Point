@@ -80,8 +80,8 @@ An AS4 handler is expected to support the PMode set below both as a Sender (of t
 
 #### 7.2.10.1 General PMode parameters 
  - **PMode.ID:** support not required 
-    PMode.ID is required by AS4 but not required by this Profile. 
-    PModes are identified by the PMode.Agreement setting 
+     - PMode.ID is required by AS4 but not required by this Profile. 
+     - PModes are identified by the PMode.Agreement setting 
  - **PMode.Agreement:** support required 
  - **PMode.MEP:** support required for: http://www.oasis-open.org/committees/ebxml-msg/one-way 
  - **PMode.MEPbinding:** support required for: http://www.oasis-open.org/committees/ebxml-msg/push 
