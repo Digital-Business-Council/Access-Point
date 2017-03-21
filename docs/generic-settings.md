@@ -59,10 +59,11 @@ eb:Property | application/gzip |
 ## 10.3 Signal Response Message 
 A signal response message must be returned by the receiving Access Point. The RefToMessageId value is populated with the value of the MessageId element from the received user message.
 Non repudiation of receipt is not required in the Profile. Non repudiation of receipt is a business concern and support in this messaging protocol has been removed. 
-  
+
+**eb:Messaging/eb:SignalMessage/eb:MessageInfo** 
+
 | | |
 | ---| ----|
-**eb:Messaging/eb:SignalMessage/eb:MessageInfo** |
 eb:Timestamp | The REQUIRED Timestamp element has a value representing the date at which the message header was created, and is conforming to a dateTime (W3C, 2012). It MUST be expressed as UTC. Indicating UTC in the Timestamp element by including the 'Z' identifier is optional. E.g. 2016-07-01T00:00:00 |
 eb:MessageId | A unique identifier to identify a message exchange between two Access Points. It is recommended to use a universally unique identifier which can be achieved using a UUID (Leach, Mealling, & Salz, 2005). |
 eb:RefToMessageId | This value is copied from the incoming user message. |
@@ -95,20 +96,20 @@ eb:Description | A human readable description of the error. |
 | | | | | |
 | ---| ----| ----| ----| ----|
 **Error Code**| **Short Description** | **Recommended Severity** | **Category Value** | **Description or Semantics**|
-EBMS:0001 | ValueNotRecognised | Failure | Content | Although the message document is well formed and schema valid, some elements/attribute contains a value that could not be recognised and therefore could not be used by the MSH |
-EBMS:0002 | FeatureNotSupported | Warning | Content | Although the message document is well formed and schema valid, some element/attribute value cannot be processed as expected because the related feature is not supported by the MSH |
-EBMS:0003 | ValueInconsistent | Failure | Content | Although the message is well formed and schema valid, some element/attribute is inconsistent either with the content of other element/attribute, or with, or with the processing mode of the MSH, or with the normative requirements of the ebMS specification. |
+EBMS:0001 | Value Not Recognised | Failure | Content | Although the message document is well formed and schema valid, some elements/attribute contains a value that could not be recognised and therefore could not be used by the MSH |
+EBMS:0002 | Feature Not Supported | Warning | Content | Although the message document is well formed and schema valid, some element/attribute value cannot be processed as expected because the related feature is not supported by the MSH |
+EBMS:0003 | Value Inconsistent | Failure | Content | Although the message is well formed and schema valid, some element/attribute is inconsistent either with the content of other element/attribute, or with, or with the processing mode of the MSH, or with the normative requirements of the ebMS specification. |
 EBMS:0004 | Other | Failure | Content | An error has occurred that has prevented the message from being correctly processed. A short description SHOULD BE provided by the MSH with this error |
-EBMS:0005 | ConnectionFailure | Failure | Communication | The MSH is experiencing temporary or permanent failure in trying to open a transport connection with a remote MSH |
+EBMS:0005 | Connection Failure | Failure | Communication | The MSH is experiencing temporary or permanent failure in trying to open a transport connection with a remote MSH |
 EBMS:0006 | | | |Not supported |
-EBMS:0007 | MimeInconsistency |Failure  | Unpackaging | The use of MIME is not consistent with the required usage in this specification |
-EBMS:0008  | FeatureNotSupported | Failure | Unpackaging | Although the message is well formed and schema valid, the presence or absence of some element/attribute is not consistent with the capability of the MSH, with respect to the supported features. |
-EBMS:0009 | InvalidHeader | Failure | Unpackaging | The ebMS header is either not well formed as an XML document, or does not conform to the ebMS packaging rules. |
-EBMS:0010 | ProcessingModeMismatch | Failure | Processing | The ebMS header or another header expected by the MSH is not compatible with the expected content, based on the associated PMode. |
-EBMS:0011 | ExternalPayloadError | Failure | Content | The MSH is unable to resolve an external reference (i.e. a Part that is not contained within the ebMS Message, as identified by a PartInfo/ref URI) |
-EBMS:0301 | MissingReceipt | Failure | Communication | A receipt has not been received for a message that was previously sent by the MSH generating this error |
-EBMS:0302 | InvalidReceipt | Failure | Communication | A Receipt has been received for a message that was previously sent by the MSH generating this error, but the content does not match the message content. |
-EBMS:0303 | DecompressionFailure | Failure | Communication | An error occurred during the decompression |
+EBMS:0007 | Mime Inconsistency |Failure  | Unpackaging | The use of MIME is not consistent with the required usage in this specification |
+EBMS:0008  | Feature Not Supported | Failure | Unpackaging | Although the message is well formed and schema valid, the presence or absence of some element/attribute is not consistent with the capability of the MSH, with respect to the supported features. |
+EBMS:0009 | Invalid Header | Failure | Unpackaging | The ebMS header is either not well formed as an XML document, or does not conform to the ebMS packaging rules. |
+EBMS:0010 | Processing Mode Mismatch | Failure | Processing | The ebMS header or another header expected by the MSH is not compatible with the expected content, based on the associated PMode. |
+EBMS:0011 | External Payload Error | Failure | Content | The MSH is unable to resolve an external reference (i.e. a Part that is not contained within the ebMS Message, as identified by a PartInfo/ref URI) |
+EBMS:0301 | Missing Receipt | Failure | Communication | A receipt has not been received for a message that was previously sent by the MSH generating this error |
+EBMS:0302 | Invalid Receipt | Failure | Communication | A Receipt has been received for a message that was previously sent by the MSH generating this error, but the content does not match the message content. |
+EBMS:0303 | Decompression Failure | Failure | Communication | An error occurred during the decompression |
 
 ### 10.4.1 Example Error Message 
 
