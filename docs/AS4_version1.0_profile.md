@@ -36,7 +36,7 @@ Pulling of messages is NOT REQUIRED for this Profile when sending or receiving b
 ### 7.2.3 Message Packaging 
 The Council’s AS4 message structure includes a standard message header based on SOAP and MIME enveloping. This Profile does not support payloads in the SOAP body element, all payloads are encoded as MIME parts, including the SOAP envelope as per section 5.1.1 of the ebMS3 standard (OASIS, 2007, p. 34). 
 
-![Messagepackagining_Logo] (/images/Message-packaging.PNG)
+![Messagepackagining_Logo](/images/Message-packaging.PNG)
 
 A message is either a user message or a signal message. Multiple payloads MAY be present and relate to PayloadInfo elements. 
 Payloads MUST be compressed according to the AS4 Additional Features Compression section 3.1 (OASIS, 2013, p. 24). The size of a message, including compressed payloads, MUST NOT exceed 10 megabytes. Support for large message splitting and joining of messages as defined in (OASIS, 2011) is NOT REQUIRED. 
