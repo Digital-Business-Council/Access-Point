@@ -13,21 +13,21 @@ The intended audiences are:
  
 Audience Reading Guide | Section | BUSINESS ANALYSTS| APPLICATION DEVELOPERS
 ---|---|---|---
-Overview | 2 | | 
-Conformance | 3 | | 
-Distribution Pacakage | 4 | | 
-Terms and Definitions (Normative) | 5 | | 
-Use Cases | 6 | | 
-AS4 Version 1.0 Profile (Normative) | 7 | | 
-Identifiers | 8 | | 
-Endpoint Discovery | 9 | | 
-Generic Settings | 10 | | 
-Appendix A: PMode Parameters|  | | 
-Appendix B: Use Cases |  | | 
+Overview | 2 | ![orange_Logo](/images/orange.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Conformance | 3 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Distribution Pacakage | 4 | ![orange_Logo](/images/orange.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Terms and Definitions (Normative) | 5 | ![orange_Logo](/images/orange.PNG) | ![orange_Logo](/images/orange.PNG) 
+Use Cases | 6 | | ![orange_Logo](/images/orange.PNG) 
+AS4 Version 1.0 Profile (Normative) | 7 | ![yellow_logo](/images/yellow.PNG) | ![orange_Logo](/images/orange.PNG) 
+Identifiers | 8 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Endpoint Discovery | 9 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Generic Settings | 10 | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Appendix A: PMode Parameters| ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
+Appendix B: Use Cases | ![yellow_logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG) 
  	 
-Primary Audience | img 
+Primary Audience | ![orange_Logo](/images/orange.PNG) 
 ---|---
-**Secondary Audience** | img
+**Secondary Audience** |  ![yellow_logo](/images/yellow.PNG) 
 
 
 
