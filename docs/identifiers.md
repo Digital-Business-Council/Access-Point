@@ -11,9 +11,9 @@ Party identifiers are used in the following instances:
 
 Party identifiers align to ebCore Party Id (OASIS, 2010). The format is: 
 
-    *Type:* urn:oasis:names:tc:ebcore:partyid-type:iso6523:&lt;scheme id &gt;
-
-    *Value:* &lt;identifier &gt; 
+   *Type:* urn:oasis:names:tc:ebcore:partyid-type:iso6523:&lt;scheme id &gt;
+   
+   *Value:* &lt;identifier &gt; 
 
 **Example:** 
 
