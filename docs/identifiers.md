@@ -4,15 +4,16 @@ The Access Point needs a set of identifiers to determine the recipient of a mess
 
 ## 8.1 Party Identifier 
 Party identifiers are used in the following instances: 
- - Querying DNS for a DCP endpoint (Digital Business Council, 2016a); 
- - Querying DCP for a list of capabilities (Digital Business Council, 2016b); and 
- - Identifying participants of a message exchange. 
+
+   - Querying DNS for a DCP endpoint (Digital Business Council, 2016a); 
+   - Querying DCP for a list of capabilities (Digital Business Council, 2016b); and 
+   - Identifying participants of a message exchange. 
 
 Party identifiers align to ebCore Party Id (OASIS, 2010). The format is: 
 
-*Type:* urn:oasis:names:tc:ebcore:partyid-type:iso6523:&lt;scheme id &gt;
+    *Type:* urn:oasis:names:tc:ebcore:partyid-type:iso6523:&lt;scheme id &gt;
 
-*Value:* &lt;identifier &gt; 
+    *Value:* &lt;identifier &gt; 
 
 **Example:** 
 
