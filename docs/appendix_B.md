@@ -115,6 +115,7 @@ There are a number of scenarios covered by this use case:
 
 ### Basic Flow 
 **New Participant in eInvoicing; Business chooses to use a single Service Provider for both Access Point and DCP services.** 
+ 
  1. The business determines their requirements; 
  
  2. The business investigates the services offered and pricing of various service providers; 
