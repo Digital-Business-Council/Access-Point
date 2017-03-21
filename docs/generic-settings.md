@@ -35,7 +35,7 @@ eb:Property | application/gzip |
 
 ### 10.2.1 Example User Message 
 
-![usermessage_Logo] (/images/usermessage-example.PNG)
+![usermessage_Logo](/images/usermessage-example.PNG)
 
 
 ## 10.3 Signal Response Message 
@@ -51,7 +51,7 @@ eb:RefToMessageId | This value is copied from the incoming user message. |
 
 ### 10.3.1 Example Response Message 
 
-![responsemessage_Logo] (/images/responsemessage-example.PNG) 
+![responsemessage_Logo](/images/responsemessage-example.PNG) 
 
 
 ## 10.4 Error Message 
@@ -94,7 +94,7 @@ EBMS:0303 | DecompressionFailure | Failure | Communication | An error occurred d
 
 ### 10.4.1 Example Error Message 
 
-![errormessage_Logo] (/images/errormessage-example.PNG)
+![errormessage_Logo](/images/errormessage-example.PNG)
 
 
 
