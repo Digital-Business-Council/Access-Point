@@ -473,16 +473,16 @@ This use case describes the steps required for an Access Point provider or a par
  7. The Digital Capability Publisher informs the requester of the successful addition of the record; 
  8. The Digital Capability Publisher adds the DCP Alias Address of the participant to the Digital Capability Locator; 
  
-         a. <&lt;include &gt;> SUC002 - Register DCP Alias Address 
+       a. <&lt;include &gt;> SUC002 - Register DCP Alias Address 
  
  9. End flow. 
 
 ### Exception Flows 
  1. At step 2, the Digital Capability Publisher is unable to add the Capability Record because the requester is not authorised to add a record; 
     
-        a. The Digital Capability Publisher sends an error message response to the requester; 
+       a. The Digital Capability Publisher sends an error message response to the requester; 
     
-        b. End flow. 
+       b. End flow. 
  
  
  2. At step 5, the Digital Capability Publisher is unable to add the Capability Record successfully because the transport Profile in the request does not conform to the supported Council transport Profiles; 
