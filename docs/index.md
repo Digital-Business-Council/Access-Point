@@ -15,7 +15,7 @@ Application Developers:
 + Those involved in the design, integration and operation of business applications dealing with invoicing. 
 
  
- Audience Reading Guide | Section | BUSINESS ANALYSTS| APPLICATION DEVELOPERS
+Audience Reading Guide | Section | BUSINESS ANALYSTS| APPLICATION DEVELOPERS
 ---|---|---|---
 Overview | 2 | | 
 Conformance | 3 | | 
