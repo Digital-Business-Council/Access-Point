@@ -16,6 +16,7 @@ eb:Timestamp | The REQUIRED Timestamp element has a value representing the date 
 eb:MessageId |  unique identifier to identify a message exchange between two Access Points. It is recommended to use a universally unique identifier which can be achieved using a UUID (Leach, Mealling, & Salz, 2005). |
 
 **eb:Messaging/eb:UserMessage/eb:PartyInfo**
+
 | | |
 | ---| ----|
 eb:From/eb:PartyId@type | The party ID type uses scheme identifiers from the iso6523 catalog. urn:oasis:names:tc:ebcore:partyid-type:iso6523:&lt;iso6523 scheme &gt; |
@@ -27,6 +28,7 @@ eb:To/eb:Role | http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/de
 
 
 **eb:Messaging/eb:UserMessage/eb:CollaborationInfo**
+
 | | |
 | ---| ----|
 eb:AgreementRef | http://resources.digitalbusinesscouncil.com.au/dbc/services/exchange/ebms3profile/current |
@@ -35,11 +37,13 @@ eb:Action | The value for this element is copied from the Digital Capability Pub
 eb:ConversationId | A unique identifier to track a message though the system. This value MUST be a universally unique identifier as described by RFC4122 (Leach, Mealling, & Salz, 2005). |
 
 **eb:Messaging/eb:UserMessage/eb:PayloadInfo/eb:PartInfo** 
+
 | | |
 | ---| ----|
 @href |Reference to the MIME part |@href |Reference to the MIME part |----|@href |Reference to the MIME part |
 
 **eb:Messaging/eb:UserMessage/eb:PayloadInfo/eb:PartInfo/eb:PartProperties                                                           These are generic values for attached payloads. Each payload must be compressed as required by the Profile.**
+
 | | |
 | ---| ----|
 eb:Property@name | CompressionType |
