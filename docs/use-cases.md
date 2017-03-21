@@ -19,7 +19,7 @@ The use cases listed in this section are separated in two categories:
 ## 6.3 Use Case Descriptions 
 The table below provides a list of business and system use cases that represent the functionality required to support the eDelivery solution. 
 
-Table 2: Relevant Use Cases 
+*Table 2: Relevant Use Cases* 
 
 |  |  |  |  |  |
 | --- |------- | --- | ------- | ------- |
