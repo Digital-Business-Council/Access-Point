@@ -298,11 +298,13 @@ This use case describes the steps required for a party to discover the DCP Alias
 ### Exception Flows 
  1. At step 4 the Digital Capability Locator cannot locate the recipient’s DCP Alias Address record and responds with an error message indicating this outcome; 
      
-    a. At step 2 the Digital Capability Locator domain is incorrect; 
+      a. At step 2 the Digital Capability Locator domain is incorrect; 
     
-    b. The DNS server responds with an error; 
+      b. The DNS server responds with an error; 
     
-    c. End flow. 
+      c. End flow. 
+ 
+ 
  2. At step 6 the DCP Alias Address is not present in the DCP Alias Address record 
     
     a. The Digital Capability Locator responds to the query; 
@@ -342,14 +344,16 @@ This use case describes the steps to remove a DCP Alias Address record from the 
  1. At step 3, the Digital Capability Locator determines the requester is not authorised to perform a removal of the Digital Address; 
  2. At step 4, the Digital Capability Locator is unable to remove the DCP Alias Address record successfully because the request format is not valid; 
 
-    a. The Digital Capability Locator sends an error message response to the requester; 
+      a. The Digital Capability Locator sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
+ 
+ 
  3. At step 5, the Digital Capability Locator cannot find a DCP Alias Address Record for the participant; 
     
-    a. The Digital Capability Locator sends an error message response to the requester; 
+      a. The Digital Capability Locator sends an error message response to the requester; 
     
-    b. End flow. 
+      b. End flow. 
     
     
 ## SUC018 List of Accredited Access Points 
@@ -395,7 +399,8 @@ For example, an Access Point could be trying to determine if the Recipient actua
 ### Basic Flow 
  1. The requester establishes the location of the recipient’s Digital Capability Publisher 
      
-     a. <&lt;include  &gt;> SUC006 - Lookup Participant’s DCP Alias Address; 
+      a. <&lt;include  &gt;> SUC006 - Lookup Participant’s DCP Alias Address; 
+ 
  2. The requester constructs the request to retrieve recipient’s capability record including participant identifier, document type and process type; 
  3. The requester sends the request to the Digital Capability Publisher endpoint; 
  4. The Digital Capability Publisher receives the request and verifies the format is correct; 
@@ -408,24 +413,30 @@ For example, an Access Point could be trying to determine if the Recipient actua
 ### Exception Flows 
  1. At step 5, the Digital Capability Publisher cannot find a Capability Record for the participant; 
 
-     a. The Capability Record sends an error message response to the requester; 
+       a. The Capability Record sends an error message response to the requester; 
 
-     b. End flow. 
+       b. End flow. 
+ 
+ 
  2. At step 2, the Digital Capability Publisher is unable to find the Capability record successfully because the request format is not valid; 
      
-     a. The Digital Capability Publisher sends an error message response to the requester; 
+       a. The Digital Capability Publisher sends an error message response to the requester; 
      
-     b. End flow. 
+       b. End flow. 
+ 
+ 
  3. At step 2, the Digital Capability Publisher is unable to find the Capability record successfully because the identifier provided does not conform to an Identifier scheme supported by the Council; 
 
-     a. The Digital Capability Publisher sends an error message response to the requester; 
+       a. The Digital Capability Publisher sends an error message response to the requester; 
      
-     b. End flow. 
+       b. End flow. 
+ 
+ 
  4. At step 2, the Digital Capability Publisher is unable to find the Capability successfully because the document type or process provided in the request does not conform to any in the capability record for that participant; 
      
-     a. The Digital Capability Publisher sends an error message response to the requester; 
+       a. The Digital Capability Publisher sends an error message response to the requester; 
      
-     b. End flow. 
+       b. End flow. 
      
      
 ## SUC003 Register Capability 
