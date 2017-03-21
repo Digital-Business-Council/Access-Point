@@ -31,10 +31,10 @@ eb:To/eb:Role | http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/de
 
 | | |
 | ---| ---|
-eb:Agreement Ref|http://resources.digitalbusinesscouncil.com.au/dbc/services/exchange/ebms3profile/current |
+eb:AgreementRef|http://resources.digitalbusinesscouncil.com.au/dbc/services/ exchange/ebms3profile/current |
 eb:Service | The value for this element is copied from the Digital Capability Publisher values when using dynamic discovery. |
 eb:Action | The value for this element is copied from the Digital Capability Publisher values when using dynamic discovery. |
-eb: ConversationId | A unique identifier to track a message though the system. This value MUST be a universally unique identifier as described by RFC4122 (Leach, Mealling, & Salz, 2005). |
+eb:ConversationId | A unique identifier to track a message though the system. This value MUST be a universally unique identifier as described by RFC4122 (Leach, Mealling, & Salz, 2005). |
 
 **eb:Messaging/eb:UserMessage/eb:PayloadInfo/eb:PartInfo** 
 
