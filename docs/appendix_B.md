@@ -129,9 +129,13 @@ There are a number of scenarios covered by this use case:
  
  7. The New Service Provider determines the client does not have an Access Point service and will use the New Service Provider’s AP; 
  
- 8. The New Service Provider adds its own supported Access Point address, transport Profiles, document types and processes to the business’ capability record in its own Digital Capability Publisher: a. <&lt; include &gt;> SUC003 – Register Capability. 
+ 8. The New Service Provider adds its own supported Access Point address, transport Profiles, document types and processes to the business’ capability record in its own Digital Capability Publisher: 
+ 
+       a. <&lt; include &gt;> SUC003 – Register Capability. 
 
- 9. The New Service Provider requests the capability address (DCL entry) be added to the Digital Capability Locator: a. <&lt;include &gt;> SUC002 – Register Capability Address. 
+ 9. The New Service Provider requests the capability address (DCL entry) be added to the Digital Capability Locator: 
+ 
+       a. <&lt;include &gt;> SUC002 – Register Capability Address. 
  
  10. The New Service Provider informs the business the on-boarding activities have been completed; 
 
