@@ -2,7 +2,7 @@
 
 The Access Point Implementation Guide defines the standards for delivering and receiving of digital business documents within the Council’s Interoperability Framework (Framework). The Framework defines the following components: 
 
- - Access Point: A sender or receiver of digital business documents; 
+    - Access Point: A sender or receiver of digital business documents; 
  - Digital Capability Locator: A service for looking up the location of the Digital Capability Publisher for a Participant. (Digital Business Council, 2016a); 
  - Digital Capability Publisher: A service for Participants to store details of their capabilities, and includes what scenarios they can process, the data formats they support and the delivery address for their eInvoices. (Digital Business Council, 2016b); and 
  - Electronic Business Documents: A digital representation of a business document, e.g. an eInvoice. 
