@@ -25,8 +25,8 @@ PMode[1].ErrorHandling.Report.AsResponse | true |
 PMode[1].Security.PModeAuthorize | false |
 PMode[1].Security.SendReceipt | true |
 PMode[1].Security.SendReceipt.NonRepudiation | false |
-PMode[1].ErrorHandling.Report.ProcessErrorNotifyProducer | true |
-PMode[1].ErrorHandling.Report.DeliveryFailuresNotifyProducer | true |
+PMode[1].ErrorHandling.Report.ProcessError NotifyProducer | true |
+PMode[1].ErrorHandling.Report.DeliveryFailures NotifyProducer | true |
 Pmode[1].Security.SendReceipt.ReplyPattern | response |
 **PMode[1].PayloadService** | |
 PMode[1].PayloadService.CompressionType | application/gzip |
@@ -34,8 +34,8 @@ PMode[1].ReceptionAwareness | true |
 PMode[1].ReceptionAwareness.Retry | true |
 PMode[1].ReceptionAwareness.Retry.| maxretries=3;period=120000 |
 Parameters | Period is two minutes which corresponds to the lowest SLA value for response. |
-PMode[1].ReceptionAwareness.DuplicateDetection | true |
-PMode[1].ReceptionAwareness.DetectDuplicates.Parameters | maxsize=10Mb;checkwindow=7D. Maximum log size is 10Mb for checking. Duplicate check window is guaranteed of seven days minimum. 
+PMode[1].ReceptionAwareness.Duplicate Detection | true |
+PMode[1].ReceptionAwareness.DetectDuplicates. Parameters | maxsize=10Mb;checkwindow=7D. Maximum log size is 10Mb for checking. Duplicate check window is guaranteed of seven days minimum. 
 
 
 
