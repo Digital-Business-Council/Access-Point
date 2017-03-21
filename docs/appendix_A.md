@@ -35,7 +35,7 @@ PMode[1].ReceptionAwareness.Retry | true |
 PMode[1].ReceptionAwareness.Retry.| maxretries=3;period=120000 |
 Parameters | Period is two minutes which corresponds to the lowest SLA value for response. |
 PMode[1].ReceptionAwareness.Duplicate Detection | true |
-PMode[1].ReceptionAwareness.Detect Duplicates. Parameters | maxsize=10Mb;checkwindow=7D. Maximum log size is 10Mb for checking. Duplicate check window is guaranteed of seven days minimum. 
+PMode[1].ReceptionAwareness.Detect Duplicates.Parameters | maxsize=10Mb;checkwindow=7D. Maximum log size is 10Mb for checking. Duplicate check window is guaranteed of seven days minimum. 
 
 
 
