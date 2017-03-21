@@ -2,7 +2,7 @@
 
 The terms listed in Table 1 are used as defined throughout this specification. 
 
-Table 1: Terms and Definitions 
+*Table 1: Terms and Definitions* 
 
 | | | 
 | --- |------- |
