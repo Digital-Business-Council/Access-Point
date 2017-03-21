@@ -236,21 +236,28 @@ N/A
 
 ### Exception Flows 
  1. At step 4, the Digital Capability Locator determines the requester is not authorised and sends an error response indicating this; 
+ 
  2. At step 5, the Digital Capability Locator is unable to add the DCP Alias Address record successfully because the request format is invalid; 
 
     a. The Digital Capability Locator sends an error message response to the requester; 
     
     b. End flow. 
+ 
+ 
  3. At step 6, the Digital Capability Locator is unable to add the DCP Alias Address record successfully to the Digital Capability Locator because the participant already has a record; 
 
     a. The Digital Capability Locator sends an error message response to the requester; 
     
     b. End flow. 
+ 
+ 
  4. At step 7, the Digital Capability Locator is unable to add the DCP Alias Address record successfully because the Digital Capability Publisher identifier provided cannot be found; 
 
     a. The Digital Capability Locator sends an error message response to the requester; 
    
     b. End flow. 
+ 
+ 
  5. At step 8, the Digital Capability Locator is unable to add the DCP Alias Address record successfully because the Digital Capability Publisher is not accredited; 
     
     a. The Digital Capability Locator sends an error message response to the requester; 
