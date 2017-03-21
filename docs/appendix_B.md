@@ -20,6 +20,7 @@ N/A
 
        a. <&lt;include &gt;> SUC005 – Lookup Participant’s Digital Capability; 
        
+ 
  4. The sending Access Point sends the business document to the recipient’s nominated Access Point for the business document type; 
  5. The receiving Access Point receives the business document successfully; 
  6. The receiving Access Point sends the business document to the recipient; 
