@@ -72,15 +72,15 @@ There are a number of scenarios covered by this use case:
 
  2. A business changes their service provider(s) to a single or multiple service provider (noting a business can only have one DCP service provider): 
  
-    a. The business moves both services from one service provider to one or more service providers. 
+       a. The business moves both services from one service provider to one or more service providers. 
  
-    b. The business moves only their Access Point service for a particular process to a new service provider.
+       b. The business moves only their Access Point service for a particular process to a new service provider.
  
-    c. The business moves only the DCP service to a new service provider. 
+       c. The business moves only the DCP service to a new service provider. 
  
-    d. The business has AP and DCP services with separate providers and consolidates the services with one provider. 
+       d. The business has AP and DCP services with separate providers and consolidates the services with one provider. 
  
-    e. The business has different Service Providers for DCP and AP services, and moves each service to two new Service Providers. 
+       e. The business has different Service Providers for DCP and AP services, and moves each service to two new Service Providers. 
  
 ### Assumptions 
  1. A Service Provider can operate an Access Point and/or a Capability Register but it is not mandatory to provide both services. 
