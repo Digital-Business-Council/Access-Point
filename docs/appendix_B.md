@@ -519,7 +519,8 @@ This use case describes the steps required for an Access Point provider or a par
       a. The Digital Capability Publisher sends an error message response to the requester; 
     
       b. End flow. 
-    
+
+
 ## SUC014 Update Capability 
 
 ### Purpose 
